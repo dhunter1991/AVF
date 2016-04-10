@@ -9,6 +9,7 @@ var Ui = function(UiData){
 		height: "100%"
 	});
 	var city = Ti.UI.createLabel({
+		//backgroundColor: "#82cbf9",
 		color: "white",
 		text: UiData.city,
 		height: 50,
@@ -18,6 +19,7 @@ var Ui = function(UiData){
 		textAlign: "center"
 	});
 	var state = Ti.UI.createLabel({
+		//backgroundColor: "#82cbf9",
 		color: "white",
 		text: UiData.state,
 		height: 50,
@@ -27,6 +29,7 @@ var Ui = function(UiData){
 		textAlign: "center"
 	});
 	var temp = Ti.UI.createLabel({
+		//backgroundColor: "#9bd6ee",
 		color: "white",
 		text: "tempreture: " + UiData.temp + " f",
 		height: 100,
@@ -37,6 +40,7 @@ var Ui = function(UiData){
 		textAlign: "center"
 	});
 	var feel = Ti.UI.createLabel({
+		backgrounColor: "#9bd6ee",
 		color: "white",
 		text: "feels like: " + UiData.feelsLike + " f",
 		height: 100,
@@ -47,6 +51,7 @@ var Ui = function(UiData){
 		textAlign: "center"
 	});
 	var humidity = Ti.UI.createLabel({
+		backgroundcolor: "#9bd6ee",
 		color: "white",
 		text: "relative humidity " + UiData.humidity,
 		height: 100,
