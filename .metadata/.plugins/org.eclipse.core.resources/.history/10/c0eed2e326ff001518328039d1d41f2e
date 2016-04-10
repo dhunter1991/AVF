@@ -1,0 +1,16 @@
+var geoFun = function(){
+	if(Ti.Geolocation.locationServicesEnabled){
+		Ti.Geolocation.purpose = "your location is needed to update weather information.";
+	Ti.Geolocation.getCurrentPosition(function(c){
+		console.log(c);
+		var lat = c.coords.latitude;
+		var lng = c.coords.longitude;
+		var ui = require("ui");
+		ui.Api(lat, lng);
+	});
+}else{
+	alert("please enable geolocation on your device to retrieve weather information");
+}
+};
+exports.geoFun = geoFun;
+

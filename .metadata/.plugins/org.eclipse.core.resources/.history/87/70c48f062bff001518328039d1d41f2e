@@ -1,0 +1,15 @@
+var geoFun = function(){
+	if(Ti.Geolocation.locationServicesEnabled){
+		Ti.Geolocation.getCurrentPosition(function(e){
+		
+		var lat = e.coords.Latitude;
+		var lng = e.coords.Longitude;
+		var ui = require("ui");
+		ui.Api(lat, lng);
+	});
+}else{
+	alert("please enable geolocation on your device to retrieve weather information");
+}
+};
+exports.geoFun = geoFun;
+

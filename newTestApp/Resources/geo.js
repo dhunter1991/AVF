@@ -1,7 +1,6 @@
 var geoFun = function(){
 	if(Ti.Geolocation.locationServicesEnabled){
-	Ti.Geolocation.getCurrentPosition(function(e){
-		console.log(e);
+		Ti.Geolocation.getCurrentPosition(function(e){
 		var lat = e.coords.latitude;
 		var lng = e.coords.longitude;
 		var ui = require("ui");

@@ -3060,6 +3060,16 @@
 			"mtime": "2016-04-10T04:51:29.000Z",
 			"size": 683
 		},
+		"images/back.png": {
+			"hash": "ff55f1f2d46a80c94aba3d07db08956b",
+			"mtime": "2016-04-10T14:57:27.000Z",
+			"size": 323365
+		},
+		"images/clouds.jpg": {
+			"hash": "9a1a650a4f328b561bde0b9215106d30",
+			"mtime": "2016-04-10T14:46:24.000Z",
+			"size": 8338
+		},
 		"Default-Landscape.png": {
 			"hash": "de8542049812d8a4f802b2b8e9080570",
 			"mtime": "2016-04-10T04:51:29.000Z",
@@ -3081,9 +3091,9 @@
 			"size": 2228874
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "fb26d965d8eea14f381c9abf3a02d19d",
-			"mtime": "2015-11-19T05:49:10.000Z",
-			"size": 493
+			"hash": "86a23d227688a9634229c938cc8841f9",
+			"mtime": "2016-04-10T14:59:27.000Z",
+			"size": 165936
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3101,16 +3111,18 @@
 			"size": 3126
 		}
 	},
-	"target": "simulator",
-	"deployType": "development",
+	"target": "device",
+	"deployType": "test",
 	"sdkVersion": "5.1.0.GA",
 	"iosSdkVersion": "9.3",
 	"deviceFamily": "ipad",
 	"iosSdkPath": "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
+	"developerName": "lovetoskate247@yahoo.com (3H8HJN9K6W)",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"gitHash": "0913213",
+	"ppUuid": "1d1c1169-86fc-469b-ab2b-cac32d1a285a",
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "newTestApp",
@@ -3122,8 +3134,8 @@
 	"description": "undefined",
 	"copyright": "2016 by school",
 	"guid": "9c7977c0-e4a6-484e-9eee-574c2bbab543",
-	"skipJSMinification": true,
-	"encryptJS": false,
+	"skipJSMinification": false,
+	"encryptJS": true,
 	"useJSCore": false,
 	"runOnMainThread": false,
 	"useAutoLayout": false

@@ -5,4 +5,6 @@ var start = require("geo");
 start.geoFun();
 }else{
 	alert("Network is needed to pull weather information");
-}
+};
+
+

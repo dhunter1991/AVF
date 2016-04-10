@@ -1,10 +1,16 @@
 var Ui = function(UiData){
 	var mainWin = Ti.UI.createWindow({
-		backgroundColor: "#9bd6ee",
-		header: "weather App"
+		backgroundColor: "#white",
+		
+	});
+	var image = Ti.UI.createImageView({
+		image: "images/back.png",
+		width: "100%",
+		height: "100%"
 	});
 	var city = Ti.UI.createLabel({
-		backgroundColor: "#82cbf9",
+		//backgroundColor: "#82cbf9",
+		color: "white",
 		text: UiData.city,
 		height: 50,
 		width: "100%",
@@ -13,7 +19,8 @@ var Ui = function(UiData){
 		textAlign: "center"
 	});
 	var state = Ti.UI.createLabel({
-		backgroundColor: "#82cbf9",
+		//backgroundColor: "#82cbf9",
+		color: "white",
 		text: UiData.state,
 		height: 50,
 		width: "100%",
@@ -22,8 +29,9 @@ var Ui = function(UiData){
 		textAlign: "center"
 	});
 	var temp = Ti.UI.createLabel({
-		backgroundColor: "#9bd6ee",
-		text: "tempreture " + UiData.temp,
+		//backgroundColor: "#9bd6ee",
+		color: "white",
+		text: "tempreture: " + UiData.temp + " f",
 		height: 100,
 		top: 120,
 		width: "50%",
@@ -33,7 +41,8 @@ var Ui = function(UiData){
 	});
 	var feel = Ti.UI.createLabel({
 		backgrounColor: "#9bd6ee",
-		text: "feels like " + UiData.feelsLike,
+		color: "white",
+		text: "feels like: " + UiData.feelsLike + " f",
 		height: 100,
 		top: 120,
 		width: "50%",
@@ -43,6 +52,7 @@ var Ui = function(UiData){
 	});
 	var humidity = Ti.UI.createLabel({
 		backgroundcolor: "#9bd6ee",
+		color: "white",
 		text: "relative humidity " + UiData.humidity,
 		height: 100,
 		top: 270,
@@ -52,6 +62,7 @@ var Ui = function(UiData){
 	});
 	var wind = Ti.UI.createLabel({
 		text: "wind speed " + UiData.wind + " mph",
+		color: "white",
 		top: 370
 		
 	});
@@ -59,7 +70,7 @@ var Ui = function(UiData){
 		image: UiData.icon ,
 		top: 420,
 	});
-	mainWin.add(wind, humidity, feel, temp, city, state, icon);
+	mainWin.add(image, wind, humidity, feel, temp, city, state, icon);
 	mainWin.open();
 };
 exports.Ui = Ui;

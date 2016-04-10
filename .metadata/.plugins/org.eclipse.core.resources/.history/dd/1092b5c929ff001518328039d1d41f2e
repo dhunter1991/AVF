@@ -1,0 +1,12 @@
+var geoFun = function(){
+		
+	Ti.Geolocation.getCurrentPosition(function(e){
+		console.log(e);
+		
+		var lat = e.coords.latitude;
+		var lng = e.coords.longitude;
+		var ui = require("ui");
+		ui.Api(lat, lng);
+	});
+exports.geoFun = geoFun;
+
