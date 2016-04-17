@@ -1,0 +1,46 @@
+
+
+var create = function(UiData) {
+	console.log(create);
+	var db = Ti.Database.open("locationInfo");
+	db.execute("CREATE TABLE IF NOT EXISTS asdTBL (id INTEGER PRIMARY KEY, city TEXT, state TEXT, temp TEXT, icon TEXT, feelslike TEXT, humidity TEXT, wind TEXT, forecast TEXT, weather TEXT, time TEXT, zip TEXT, gust TEXT, dew TEXT, heat TEXT, chill TEXT, visibility TEXT)");
+	db.execute ("INSERT INTO asdTBL (city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", info[i].city, info[i].state, info[i].temp, info[i].icon, info[i].feelslike, info[i].humidity, info[i].wind, info[i].forecast, info[i].weather, info[i].time, info[i].zip, info[i].gust, info[i].dew, info[i].heat, info[i].chill, info[i].visibility);
+	db.close();
+	read();
+};
+var read = function(){
+	console.log(read);
+	var db = Ti.Database.open("locationInfo");
+	db.execute("SELECT id, city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility FROM asdTBL");
+	if (Rows.rowCount > 0);
+	var dbArray = [];
+	while (rows.isValidRow()){
+		var dbInfo = {
+			id: rows.fieldByName("id"),
+			city: rows.fieldByName("city"),
+			state: rows.fieldByName("state"),
+			temp: rows.fieldByName ("temp"),
+			icon: rows.fieldByName ("icon"),
+			feelslike: rows.fieldByName ("feelslike"),
+			humidity: rows.fieldByName ("humidity"),
+			wind: rows.fieldByName ("wind"),
+			forecast: rows.fieldByName ("forecast"),
+			weather: rows.fieldByName ("weather"),
+			time: rows.fieldByName ("time"),
+			zip: rows.fieldByName ("zip"),
+			gust: rows.fieldByName ("gust"),
+			dew: rows.fieldByName ("dew"),
+			heat: rows.fieldByName ("heat"),
+			chill: rows.fieldByName ("chill"),
+			visibility: rows.fieldByName ("visibility")
+		};
+		dbArray.push(dbInfo);
+		rows.next();
+	}
+	var uiModule = require("api");
+	uiModule.api(dbArray);
+	db.close();
+};
+
+exports.create = create;
+exports.update = update;

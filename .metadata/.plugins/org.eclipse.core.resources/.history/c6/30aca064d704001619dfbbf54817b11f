@@ -1,0 +1,47 @@
+var Api = function(lat, lng){
+	console.log(Api);
+	var url = "http://api.wunderground.com/api/7e2a0de38337b6b0/conditions/hourly/forecast/q/" + lat + "," + lng + ".json";
+	console.log(url);
+	var data = Ti.Network.createHTTPClient({
+		onload: function(e){
+			var json = JSON.parse(this.responseText);
+			console.log(json);
+			uiArray = [];
+			for (i=0, j=json.current_observation.length; i<j; i++){
+			var UiData = {
+				city: json.current_observation[i].display_location.city,
+				state: json.current_observation[i].display_location.state,
+				temp: json.current_observation[i].temp_f,
+				icon: json.current_observation[i].icon_url,
+				feelsLike: json.current_observation[i].feelslike_f,
+				humidity: json.current_observation[i].relative_humidity,
+				wind: json.current_observation[i].wind_mph,
+				forecast: json.current_observation[i].forecast_url,
+				weather: json.current_observation[i].weather,
+				time: json.current_observation[i].observation_time,
+				zip: json.current_observation[i].display_location.zip,
+				gust: json.current_observation[i].wind_gust_mph,
+				dew: json.current_observation[i].dewpoint_f,
+				heat: json.current_observation[i].heat_index_string,
+				chill: json.current_observation[i].windchill_f,
+				visibility: json.current_observation[i].visibility_mi,
+			};
+			uiArray.push(UiData);
+			}
+			console.log("uiArray: ", uiArray);
+			console.log(UiData);
+			var Uiview = require("db");
+			Uiview.update(uiArray);
+		},
+		onerror: function(e){
+			alert("error has occured please check connection");
+			var dbView = require("db");
+			dbView.db(rows);
+			console.log(rows);
+		},
+		timeout: 5000
+	});
+	data.open("GET", url);
+	data.send();
+};
+exports.Api = Api;

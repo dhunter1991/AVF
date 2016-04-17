@@ -1,1 +1,1 @@
-if(Titanium.UI.setBackgroundColor("#000"),Ti.Network.online===!0){var start=require("geo");start.geoFun()}else alert("Network is needed to pull weather information. pulling up information from lat login!");
+if(Titanium.UI.setBackgroundColor("#000"),Ti.Network.online===!0){var start=require("geo");start.geoFun()}else{alert("Network is needed to pull weather information");var database="db";database.read()}

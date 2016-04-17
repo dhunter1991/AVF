@@ -30,9 +30,8 @@ var Api = function(lat, lng){
 		},
 		onerror: function(e){
 			alert("error has occured please check connection");
-			var dbView = require("db");
-			dbView.db(rows);
-			console.log(rows);
+			var createDb = require("db");
+			createDb.read();
 		},
 		timeout: 5000
 	});

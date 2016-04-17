@@ -1,5 +1,5 @@
 
-4/17/2016, 11:58:46 AM
+4/17/2016, 5:08:59 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/week2weatherApp --target device --ios-version 9.3 --device-family universal --developer-name lovetoskate247@yahoo.com (3H8HJN9K6W) --device-id 709a1e804c94e816083c5097792cc5959945823e --pp-uuid 3533de9a-2f5f-40d7-af8d-e323111a7da5 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55853 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1460908723743.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/week2weatherApp --target device --ios-version 9.3 --device-family universal --developer-name lovetoskate247@yahoo.com (3H8HJN9K6W) --device-id 709a1e804c94e816083c5097792cc5959945823e --pp-uuid 3533de9a-2f5f-40d7-af8d-e323111a7da5 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55853 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1460927336469.json --no-banner
 
 [DEBUG]  Detecting modules in /Users/school/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/android/facebook/4.0.5
@@ -58,7 +58,7 @@ Command
 [TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-dbe6b84e86484be81ff67e09cf665a03ed264246.json
 [TRACE]  online 1
 [TRACE]  sending request {"json":{"username":"hunterdylan882@gmail.com","session":"62827ddef68d3c2793054b767af8bdfba8fc9366 +7ozliD8lxWOVi4kJwyD5QAl1S0HMTHUKMz+GPjZWOl+AxSHDgrmjt8pc+BsVh/5zzhrSElSaDHF6H7C5AJ3yyeS+TqCNS+IuktErXqA1PV3CxyABMjhAOjdaXPMjaPGub3MPILtoQrqUSL1vwcboRF/ro69eZSWggSG7nh29Nla1bMBjvvbtHjpWftaM1bu66jFdKk2fNiL1WCLWwLpks3M9oYBAicxTHzdJAH0torumtm6FC+t0LTW9fuhlI4TqM/5ccrEIBhzO+YP6lm0T0SlL2aJxzll3dp4073Iqm+srETB4nBkEK0ldGdbz+BmWwQolnQlDsOINStFDvwEh/Ll4pCIMYYHxNQ0WH8pWSPQe7b9DJ2o8N79ljLsUhtaYiaB7LTKxbkQ+HzUCOyAl0VU7NOvqMjvVO+XSW6w8UolleDxHAWcvMHUROyZJiiEry0ccHqNemuv37XOuINggs05gNU64TmYt2rYNKr/0MN6ViZWdaajv7m7NCeYkbsQ4v8oPQl14nnueYdQh+nZTB1wrL2PYnJIcc0xKhLRtLUdOOSbZqHaIlt0dyq17LWx6ehCBv7N5qlKrmxBhyP3qgIScbBvuC84bQKtIfQut/FC7TekWaxXSzjtvF7kPwK5W1iEt/qxo61izvUsO/rUHhuV5/dAvuHaxDMbAO6hTKjsmANZP7CiAx+RSRSBN0HJmc4Rm8TnLZbi4ogNu0BM0qEAoAcNc5vyulTeufLfs4/+DrRi+ytma45NSLGYsYYcpAz93KJ4qbEHaQNyyskA3PMMxxU8DsrTjg9nnq6hYN8=","ipaddress":"10.0.0.210","fingerprint":"9cac56b8b969e4c735c38c0f0a4fadb71d7be8a9","fingerprint_description":"Mac OSX Serial Number: C02PV3GFG8WL","guid":"8decefdd-fa5e-4c5d-9eee-2acb321ddc6f","appid":"com.fullsail.week2weatherApp","name":"week2weatherApp","org_id":100083291,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.fullsail.week2weatherApp</id>\n  <name>week2weatherApp</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url/>\n  <description/>\n  <copyright>2016 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>8decefdd-fa5e-4c5d-9eee-2acb321ddc6f</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <array>\n          <string>allow location cords</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">true</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">57138e2dcd2fad3b64b5344a</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100083291</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35</property>\n  </ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["test"],"modulePath":"/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9","version":"3.2.9","manifest":{"version":"3.2.9","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
-[TRACE]  result from /build-verify=> {"key":"9HJ/2JSFat37TITSu91Q6A==","pepper":"y2e2OPNuhHY72y5QMEvNPA==","hmacKey":"lzHhExdBQeH+U+lL6XsONg==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"5713b2b8813c7209158d9198","success":true}, err=null
+[TRACE]  result from /build-verify=> {"key":"2MONMPkIpnGhzhe2SRCFBg==","pepper":"9px6h25Gw3ak82b0y3WHyA==","hmacKey":"aWU8yvs60uKk+ShJNnrxEA==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"5713fb6d813c72091590103d","success":true}, err=null
 [INFO]   JavaScript files need to be encrypted
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
@@ -134,11 +134,11 @@ Command
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/api_js
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/week2weatherApp/Resources/api.js => /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/api_js
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/app_js
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/db_js
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/geo_js
-[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/week2weatherApp/Resources/ui.js => /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/ui_js
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/ui_js
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/ti_cloud_js
 [INFO]   Writing app properties
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/_app_props__json
@@ -161,7 +161,8 @@ Command
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/defines.h
 [INFO]   Removing files
-[DEBUG]  Removing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Logs/Build/C74B26A0-CF86-48A9-A141-9B066AC33F97.xcactivitylog
+[DEBUG]  Removing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/DefaultIcon.png
+[DEBUG]  Removing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Logs/Build/E511F975-3AD6-45B2-B468-408A3D7CA18F.xcactivitylog
 [DEBUG]  Removing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.ipa
 [DEBUG]  Removing empty directories
 [INFO]   Optimizing .plist and .png files
@@ -323,6 +324,6 @@ Command
 [TRACE]      /usr/bin/touch -c /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app.dSYM
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 40s 61ms
+[INFO]   Finished building the application in 42s 40ms
 [INFO]   Installing app on device: Dylan's iPad
 [INFO]   App successfully installed on device: Dylan's iPad

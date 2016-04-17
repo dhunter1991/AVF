@@ -120,7 +120,7 @@ var Ui = function(UiData){
 	var zip = Ti.UI.createLabel({
 		text: UiData.zip,
 		color: "#fff",
-		top: "15%",
+		top: "16%",
 		font: {fontFamily: "roboto", fontSize: 20, fontWeight: "bold"},
 	});
 	var retry = Ti.UI.createButton({
