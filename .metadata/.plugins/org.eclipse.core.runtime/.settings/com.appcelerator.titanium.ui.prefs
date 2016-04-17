@@ -5,4 +5,4 @@ newTestApp\:launchMode=run
 newTestApp\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.28AD5081-EF91-46D1-8496-CDBC0DB38268
 preference.show.console.onError=false
 week2weatherApp\:launchMode=run
-week2weatherApp\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.run.device.launchShortcut.709a1e804c94e816083c5097792cc5959945823e
+week2weatherApp\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.28AD5081-EF91-46D1-8496-CDBC0DB38268
