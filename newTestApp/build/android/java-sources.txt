@@ -1,0 +1,8 @@
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/android/support/v7/cardview/R.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/com/fullsail/newTestApp/AssetCryptImpl.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/com/fullsail/newTestApp/NewtestappActivity.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/com/fullsail/newTestApp/NewtestappAppInfo.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/com/fullsail/newTestApp/NewtestappApplication.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/com/fullsail/newTestApp/R.java"
+"/Users/school/Desktop/AVF/newTestApp/build/android/gen/ti/modules/titanium/ui/R.java"

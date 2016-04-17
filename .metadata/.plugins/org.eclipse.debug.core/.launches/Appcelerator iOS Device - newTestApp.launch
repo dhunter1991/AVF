@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.installer.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="newTestApp"/>
+<stringAttribute key="ATTR_TITANIUM_DEPLOY_TYPE" value="development"/>
+<booleanAttribute key="ATTR_UPLOAD_DEBUG_SYMBOLS" value="false"/>
+<stringAttribute key="appid" value="com.fullsail.newTestApp"/>
+<stringAttribute key="certificate" value="lovetoskate247@yahoo.com (3H8HJN9K6W)"/>
+<stringAttribute key="debug_config" value="::1460899871300:192.168.56.1,10.0.0.210"/>
+<stringAttribute key="debug_hosts" value="192.168.56.1,10.0.0.210"/>
+<stringAttribute key="device_id" value="709a1e804c94e816083c5097792cc5959945823e"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/newTestApp"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="9.3"/>
+<stringAttribute key="uuid" value="246cce36-32e7-445c-90e8-19565e9ff365"/>
+</launchConfiguration>

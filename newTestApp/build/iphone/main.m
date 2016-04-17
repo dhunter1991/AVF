@@ -7,10 +7,10 @@
 #define _QUOTEME(x) #x
 #define STRING(x) _QUOTEME(x)
 
-NSString * const TI_APPLICATION_DEPLOYTYPE = @"test";
+NSString * const TI_APPLICATION_DEPLOYTYPE = @"development";
 NSString * const TI_APPLICATION_ID = @"com.fullsail.newTestApp";
 NSString * const TI_APPLICATION_PUBLISHER = @"school";
-NSString * const TI_APPLICATION_URL = @"";
+NSString * const TI_APPLICATION_URL = @"undefined";
 NSString * const TI_APPLICATION_NAME = @"newTestApp";
 NSString * const TI_APPLICATION_VERSION = @"1.0";
 NSString * const TI_APPLICATION_DESCRIPTION = @"undefined";

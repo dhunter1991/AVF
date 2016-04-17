@@ -47,7 +47,7 @@
 	<string>UIStatusBarStyleDefault</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<array>
-		<string>please allow the app to access your location for weather updates.</string>
+		<string>allow location cords</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~iphone</key>
 	<array>

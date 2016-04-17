@@ -4,7 +4,7 @@
     <name>newTestApp</name>
     <version>1.0</version>
     <publisher>school</publisher>
-    <url/>
+    <url>undefined</url>
     <description>undefined</description>
     <copyright>2016 by school</copyright>
     <icon>appicon.png</icon>
@@ -16,10 +16,10 @@
     <ios>
         <plist>
             <dict>
-                <key>NSLocationAlwaysUsageDescription</key>
-                <array>
-                    <string> please allow the app to access your location for weather updates.</string>
-                </array>
+            	<key>NSLocationAlwaysUsageDescription</key>
+            	<array>
+            		<string>allow location cords</string>
+            		</array>
                 <key>UISupportedInterfaceOrientations~iphone</key>
                 <array>
                     <string>UIInterfaceOrientationPortrait</string>

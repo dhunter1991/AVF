@@ -1,0 +1,8 @@
+var geoFun = function(){
+		var lat = 38.24 ;
+		var lng =  -78.11;
+		var ui = require("ui");
+		ui.Api(lat, lng);
+};
+exports.geoFun = geoFun;
+

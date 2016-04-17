@@ -1,0 +1,77 @@
+var Ui = function(UiData){
+	var mainWin = Ti.UI.createWindow({
+		backgroundColor: "#fff",
+		
+	});
+	var image = Ti.UI.createImageView({
+		image: "images/back.png",
+		width: "100%",
+		height: "100%"
+	});
+	var city = Ti.UI.createLabel({
+		color: "fff",
+		text: UiData.city,
+		//height: 50,
+		width: "100%",
+		top: "10%",
+		font: {fontFamily: "roboto", fontSize: 20, fontWeight: "bold"},
+		textAlign: "center"
+	});
+	var state = Ti.UI.createLabel({
+		color: "#fff",
+		text: UiData.city + "," + UiData.state,
+		//height: 50,
+		width: "100%",
+		top: "10%",
+		font: {fontFamily: "roboto", fontSize: 25, fontWeight: "bold"},
+		textAlign: "center"
+	});
+	var temp = Ti.UI.createLabel({
+		color: "#fff",
+		text: "Current temp: " + UiData.temp + "° f",
+		//height: 50,
+		top: "30%",
+		width: "100%",
+		left: 5,
+		font: {fontFamily: "roboto", fontSize: 25, fontWeight: "bold"},
+		textAlign: "center"
+	});
+	var feel = Ti.UI.createLabel({
+		color: "#fff",
+		text: "feels like: " + UiData.feelsLike + "° f",
+		height: 100,
+		top: "32%",
+		width: "100%",
+		left: 5,
+		font: {fontFamily: "roboto", fontSize: 15, fontWeight: "bold"},
+		textAlign: "center"
+	});
+	var humidity = Ti.UI.createLabel({
+		color: "#fff",
+		text: "relative humidity: " + UiData.humidity,
+		top: "55%",
+		width: "100%",
+		font: {fontFamily: "roboto", fontSize: 20, fontWeight: "bold"},
+		textAlign: "center"
+	});
+	var wind = Ti.UI.createLabel({
+		text: "wind speed: " + UiData.wind + " mph",
+		color: "#fff",
+		top: "60%"
+		
+	});
+	var icon = Ti.UI.createImageView({
+		image: UiData.icon ,
+		top: "65%",
+	});
+	mainWin.add(image);
+	mainWin.add(city);
+	mainWin.add(state);
+	mainWin.add(temp);
+	mainWin.add(feel);
+	mainWin.add(humidity);
+	mainWin.add(wind);
+	mainWin.add(icon);
+	mainWin.open();
+};
+exports.Ui = Ui;

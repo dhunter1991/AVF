@@ -1,9 +1,9 @@
 {
 	"files": {
 		"Info.plist": {
-			"hash": "6cbda01907789dbf345b92b2fea28300",
+			"hash": "7b4d93da357e98dec795329d03a8f6de",
 			"mtime": 0,
-			"size": 1967
+			"size": 1922
 		},
 		"5.1.0.GA/iphone/libTiCore.a": {
 			"hash": null,
@@ -3091,9 +3091,9 @@
 			"size": 2228874
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "86a23d227688a9634229c938cc8841f9",
-			"mtime": "2016-04-10T14:59:27.000Z",
-			"size": 165936
+			"hash": "fb26d965d8eea14f381c9abf3a02d19d",
+			"mtime": "2015-11-19T05:49:10.000Z",
+			"size": 493
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3111,31 +3111,29 @@
 			"size": 3126
 		}
 	},
-	"target": "device",
-	"deployType": "test",
+	"target": "simulator",
+	"deployType": "development",
 	"sdkVersion": "5.1.0.GA",
 	"iosSdkVersion": "9.3",
 	"deviceFamily": "ipad",
 	"iosSdkPath": "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
-	"developerName": "lovetoskate247@yahoo.com (3H8HJN9K6W)",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"gitHash": "0913213",
-	"ppUuid": "1d1c1169-86fc-469b-ab2b-cac32d1a285a",
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "newTestApp",
 	"id": "com.fullsail.newTestApp",
 	"analytics": true,
 	"publisher": "school",
-	"url": "",
+	"url": "undefined",
 	"version": "1.0",
 	"description": "undefined",
 	"copyright": "2016 by school",
 	"guid": "9c7977c0-e4a6-484e-9eee-574c2bbab543",
-	"skipJSMinification": false,
-	"encryptJS": true,
+	"skipJSMinification": true,
+	"encryptJS": false,
 	"useJSCore": false,
 	"runOnMainThread": false,
 	"useAutoLayout": false

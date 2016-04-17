@@ -1,8 +1,8 @@
-#appname: newTestApp
-#publisher: school
-#url: 
-#image: appicon.png
-#appid: com.fullsail.newTestApp
-#desc: undefined
-#type: ipad
-#guid: 9c7977c0-e4a6-484e-9eee-574c2bbab543
+#appname:newTestApp
+#publisher:school
+#url:undefined
+#image:appicon.png
+#appid:com.fullsail.newTestApp
+#desc:undefined
+#type:ipad
+#guid:9c7977c0-e4a6-484e-9eee-574c2bbab543

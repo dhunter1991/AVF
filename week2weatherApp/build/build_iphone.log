@@ -1,0 +1,277 @@
+
+4/17/2016, 10:47:22 AM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.11.4
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 4.2.2
+  npm Version                 = 2.14.7
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.0.GA
+  SDK Path                    = /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/week2weatherApp --target device --ios-version 9.3 --device-family universal --developer-name lovetoskate247@yahoo.com (3H8HJN9K6W) --device-id 709a1e804c94e816083c5097792cc5959945823e --pp-uuid 3533de9a-2f5f-40d7-af8d-e323111a7da5 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 55853 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1460904439979.json --no-banner
+
+[DEBUG]  Detecting modules in /Users/school/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=test path=/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building using iOS SDK: 9.3
+[INFO]   Building for iOS device: 709a1e804c94e816083c5097792cc5959945823e
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphoneos
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   iOS Development Certificate: lovetoskate247@yahoo.com (3H8HJN9K6W)
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Using default keychain
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-dbe6b84e86484be81ff67e09cf665a03ed264246.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"hunterdylan882@gmail.com","session":"62827ddef68d3c2793054b767af8bdfba8fc9366 +7ozliD8lxWOVi4kJwyD5QAl1S0HMTHUKMz+GPjZWOl+AxSHDgrmjt8pc+BsVh/5zzhrSElSaDHF6H7C5AJ3yyeS+TqCNS+IuktErXqA1PV3CxyABMjhAOjdaXPMjaPGub3MPILtoQrqUSL1vwcboRF/ro69eZSWggSG7nh29Nla1bMBjvvbtHjpWftaM1bu66jFdKk2fNiL1WCLWwLpks3M9oYBAicxTHzdJAH0torumtm6FC+t0LTW9fuhlI4TqM/5ccrEIBhzO+YP6lm0T0SlL2aJxzll3dp4073Iqm+srETB4nBkEK0ldGdbz+BmWwQolnQlDsOINStFDvwEh/Ll4pCIMYYHxNQ0WH8pWSPQe7b9DJ2o8N79ljLsUhtaYiaB7LTKxbkQ+HzUCOyAl0VU7NOvqMjvVO+XSW6w8UolleDxHAWcvMHUROyZJiiEry0ccHqNemuv37XOuINggs05gNU64TmYt2rYNKr/0MN6ViZWdaajv7m7NCeYkbsQ4v8oPQl14nnueYdQh+nZTB1wrL2PYnJIcc0xKhLRtLUdOOSbZqHaIlt0dyq17LWx6ehCBv7N5qlKrmxBhyP3qgIScbBvuC84bQKtIfQut/FC7TekWaxXSzjtvF7kPwK5W1iEt/qxo61izvUsO/rUHhuV5/dAvuHaxDMbAO6hTKjsmANZP7CiAx+RSRSBN0HJmc4Rm8TnLZbi4ogNu0BM0qEAoAcNc5vyulTeufLfs4/+DrRi+ytma45NSLGYsYYcpAz93KJ4qbEHaQNyyskA3PMMxxU8DsrTjg9nnq6hYN8=","ipaddress":"10.0.0.210","fingerprint":"9cac56b8b969e4c735c38c0f0a4fadb71d7be8a9","fingerprint_description":"Mac OSX Serial Number: C02PV3GFG8WL","guid":"8decefdd-fa5e-4c5d-9eee-2acb321ddc6f","appid":"com.fullsail.week2weatherApp","name":"week2weatherApp","org_id":100083291,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.fullsail.week2weatherApp</id>\n  <name>week2weatherApp</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url/>\n  <description/>\n  <copyright>2016 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>8decefdd-fa5e-4c5d-9eee-2acb321ddc6f</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <array>\n          <string>allow location cords</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">true</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">57138e2dcd2fad3b64b5344a</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100083291</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35</property>\n  </ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["test"],"modulePath":"/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9","version":"3.2.9","manifest":{"version":"3.2.9","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"/Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"k/tkJc/ttM39z0qlGILmTw==","pepper":"wMGn8vuAG9maVmv5Cub3EA==","hmacKey":"PetW0qNfkQM/y1uMVtlKzA==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"5713a1fd9d12aa0909095fa5","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/week2weatherApp.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/week2weatherApp.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/week2weatherApp_Prefix.pch
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/week2weatherApp.xcodeproj/xcshareddata/xcschemes/week2weatherApp.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/debugger.plist
+[DEBUG]  Skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/images/back.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/images/bg.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/images/clouds.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/api_js
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/week2weatherApp/Resources/app.js => /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/app_js
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/db_js
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/geo_js
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/ui_js
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/ti_cloud_js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets/_app_props__json
+[INFO]   Encrypting JavaScript files
+[DEBUG]  Preparing api_js
+[DEBUG]  Preparing app_js
+[DEBUG]  Preparing db_js
+[DEBUG]  Preparing geo_js
+[DEBUG]  Preparing ui_js
+[DEBUG]  Preparing ti_cloud_js
+[DEBUG]  Preparing _app_props__json
+[DEBUG]  Running /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/titanium_prep "com.fullsail.week2weatherApp" "/Users/school/Desktop/AVF/week2weatherApp/build/iphone/assets"
+[DEBUG]  Writing application routing source file: /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Logs/Build/4050B0B8-79A5-4CFD-88E3-9B8E5A836405.xcactivitylog
+[DEBUG]  Removing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.ipa
+[DEBUG]  Removing empty directories
+[INFO]   Optimizing .plist and .png files
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/Info.plist
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/images/back.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/modules/ui/images/photoDefault.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon29x29@2x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon29x29@2x~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon29x29@3x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon29x29~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon40x40@2x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon40x40@2x~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon40x40@3x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon40x40~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon60x60@2x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon60x60@3x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon76x76@2x~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/AppIcon76x76~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-700-568h@2x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-700-Landscape@2x~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-700-Landscape~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-700-Portrait@2x~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-700-Portrait~ipad.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-700@2x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-800-667h@2x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-800-Landscape-736h@3x.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/LaunchImage-800-Portrait-736h@3x.png
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target week2weatherApp -configuration Debug -scheme week2weatherApp -derivedDataPath /Users/school/Desktop/AVF/week2weatherApp/build/iphone OBJROOT=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products
+[TRACE]  
+[TRACE]  === BUILD TARGET week2weatherApp OF PROJECT week2weatherApp WITH CONFIGURATION Debug ===
+[TRACE]  Check dependencies
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/ApplicationRouting.o Classes/ApplicationRouting.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-generated-files.hmap -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-own-target-headers.hmap -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-all-target-headers.hmap -iquote /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-project-headers.hmap -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libxml2 -Iheaders -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/DerivedSources/armv7 -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/DerivedSources -F/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos -DDEBUG -include /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/PrecompiledHeaders/week2weatherApp_Prefix-giayeziiyaahiievokthfpupcgjt/week2weatherApp_Prefix.pch -MMD -MT dependencies -MF /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/ApplicationRouting.d --serialize-diagnostics /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/ApplicationRouting.dia -c /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/ApplicationRouting.m -o /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/ApplicationRouting.o Classes/ApplicationRouting.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/school/Desktop/AVF/week2weatherApp/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-generated-files.hmap -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-own-target-headers.hmap -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-all-target-headers.hmap -iquote /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp-project-headers.hmap -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libxml2 -Iheaders -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/DerivedSources/arm64 -I/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/DerivedSources -F/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos -DDEBUG -include /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/PrecompiledHeaders/week2weatherApp_Prefix-havflecwjbatopdiqxkmcanypyxf/week2weatherApp_Prefix.pch -MMD -MT dependencies -MF /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/ApplicationRouting.d --serialize-diagnostics /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/ApplicationRouting.dia -c /Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/ApplicationRouting.m -o /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/ApplicationRouting.o
+[TRACE]  
+[TRACE]  Ld build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/week2weatherApp normal armv7
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/lib -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/APSAnalytics -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/APSHTTPClient -F/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos -filelist /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/week2weatherApp.LinkFileList -miphoneos-version-min=7.1 -dead_strip -Xlinker -no_deduplicate -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -Xlinker -dependency_info -Xlinker /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/week2weatherApp_dependency_info.dat -o /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/week2weatherApp
+[TRACE]  
+[TRACE]  Ld build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/week2weatherApp normal arm64
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/lib -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/APSAnalytics -L/Users/school/Desktop/AVF/week2weatherApp/build/iphone/Classes/APSHTTPClient -F/Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos -filelist /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/week2weatherApp.LinkFileList -miphoneos-version-min=7.1 -dead_strip -Xlinker -no_deduplicate -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -Xlinker -dependency_info -Xlinker /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/week2weatherApp_dependency_info.dat -o /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/week2weatherApp
+[TRACE]  
+[TRACE]  CreateUniversalBinary build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp normal armv7\ arm64
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/armv7/week2weatherApp /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/Objects-normal/arm64/week2weatherApp -output /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp
+[TRACE]  
+[TRACE]  GenerateDSYMFile build/Products/Debug-iphoneos/week2weatherApp.app.dSYM build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp -o /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app.dSYM
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /usr/bin/touch -c /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]  
+[TRACE]  Strip build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp
+[TRACE]  
+[TRACE]  CopySwiftLibs build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-stdlib-tool --copy --verbose --sign CBF46FA172901731908124132377E872C0E88A5A --scan-executable /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/week2weatherApp --scan-folder /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/Frameworks --scan-folder /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/iAd.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMedia.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMotion.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/EventKitUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AddressBook.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AddressBookUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreLocation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MapKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MessageUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenGLES.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AudioToolbox.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MediaPlayer.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/StoreKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ExternalAccessory.framework --platform iphoneos --destination /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app/Frameworks --strip-bitcode
+[TRACE]  
+[TRACE]  CodeSign build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      
+[TRACE]  Signing Identity:     "iPhone Developer: lovetoskate247@yahoo.com (3H8HJN9K6W)"
+[TRACE]  Provisioning Profile: "iOS Team Provisioning Profile: com.fullsail.week2weatherApp"
+[TRACE]                        (3533de9a-2f5f-40d7-af8d-e323111a7da5)
+[TRACE]      /usr/bin/codesign --force --sign CBF46FA172901731908124132377E872C0E88A5A --entitlements /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Intermediates/week2weatherApp.build/Debug-iphoneos/week2weatherApp.build/week2weatherApp.app.xcent --timestamp=none /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]  
+[TRACE]  Validate build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      export PRODUCT_TYPE=com.apple.product-type.application
+[TRACE]      builtin-validationUtility /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphoneos/week2weatherApp.app.dSYM
+[TRACE]      cd /Users/school/Desktop/AVF/week2weatherApp/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /usr/bin/touch -c /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphoneos/week2weatherApp.app.dSYM
+[TRACE]  
+[TRACE]  ** BUILD SUCCEEDED **
+[INFO]   Finished building the application in 9s 409ms
+[INFO]   Installing app on device: Dylan's iPad
+[INFO]   App successfully installed on device: Dylan's iPad

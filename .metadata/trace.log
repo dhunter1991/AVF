@@ -1,0 +1,373 @@
+# !SESSION 2016-04-10 14:33:15.594
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	org.eclipse.help.ui/debug/embeddedBrowser=true
+# 	org.eclipse.osgi/monitor/lazy=true
+# 	org.eclipse.ui/perf/part.create=true
+# 	org.eclipse.core.resources/build/needbuildstack=true
+# 	com.aptana.git.core/debug=true
+# 	org.eclipse.core.resources/save/mastertable=true
+# 	org.eclipse.e4.ui.workbench.swt/debug=true
+# 	org.eclipse.osgi/debug=true
+# 	org.eclipse.ui.intro.universal/debug=true
+# 	com.aptana.scripting/debug/show_bundle_load_info=true
+# 	org.eclipse.core.resources/strings=true
+# 	org.eclipse.ui.ide/debug/internalerror/openDialog=true
+# 	com.aptana.core/debug/logger=true
+# 	com.aptana.editor.html/debug=true
+# 	com.aptana.core/debug/builder/indexer=true
+# 	org.eclipse.ui/listeners/IWorkbenchPage.IPartListener=true
+# 	org.eclipse.ui/perf/page.listeners=true
+# 	org.eclipse.core.resources/save/tree=true
+# 	org.eclipse.ui.navigator/debug=true
+# 	org.eclipse.e4.ui.workbench.swt/trace/eclipse.context=true
+# 	org.eclipse.core.runtime/url/debug/cachelookup=true
+# 	org.eclipse.equinox.p2.engine/enginesession/debug=true
+# 	com.appcelerator.titanium.ios.core/debug/simulator=true
+# 	com.appcelerator.titanium.360.core/debug/services/apm=true
+# 	org.eclipse.core.resources/restore/markers=true
+# 	com.aptana.editor.common/perf/content_assist/rubles=true
+# 	org.eclipse.help/debug/toc=true
+# 	org.eclipse.ui.intro.universal/trace/logInfo=true
+# 	org.eclipse.osgi/debug/messageBundles=true
+# 	org.eclipse.ui.ide/debug/undomonitor=true
+# 	org.eclipse.core.runtime/url/debug/connect=true
+# 	org.eclipse.team.core/streams=true
+# 	org.eclipse.osgi/debug/objectPool/adds=true
+# 	org.eclipse.osgi/eclipseadaptor/debug/platformadmin/resolver=true
+# 	org.eclipse.osgi/resolver/roots=true
+# 	com.aptana.core/debug/ast=true
+# 	org.eclipse.ui/perf/perspective.switch=true
+# 	com.aptana.core/debug/shell=true
+# 	org.eclipse.ui.intro/debug/toolbar=true
+# 	org.eclipse.ui/debug/declaredImages=true
+# 	org.eclipse.ui/perf/contentTypes=true
+# 	com.aptana.formatter.epl/debug=true
+# 	org.eclipse.ui/debug/swtdebug=true
+# 	org.eclipse.equinox.p2.engine/certificatechecker/unsigned=true
+# 	org.eclipse.e4.core.services/debug=true
+# 	com.appcelerator.titanium.core/debug/dashboard=true
+# 	com.aptana.core.io/debug=true
+# 	org.eclipse.core.resources/contenttype/cache=true
+# 	org.eclipse.ui.ide/debug/gc=true
+# 	com.aptana.core/debug/builder/participants=true
+# 	com.aptana.ui.epl/debug=true
+# 	org.eclipse.osgi/resolver/hooks=true
+# 	com.aptana.usage/debug/usage=true
+# 	com.aptana.core/debug/firefox=true
+# 	org.eclipse.debug.ui/debug/viewers/model=true
+# 	org.eclipse.help.ui/debug/embeddedBrowser/inprocess=true
+# 	com.aptana.core/debug/ziputil=true
+# 	org.eclipse.debug.ui/debug/viewers/stateSaveRestore=true
+# 	org.eclipse.debug.ui/debug/viewers/deltas=true
+# 	org.eclipse.ltk.core.refactoring/perf/participants/checkConditions=true
+# 	com.appcelerator.titanium.alloy.ui/debug=true
+# 	org.eclipse.core.jobs/jobs/locks=true
+# 	com.aptana.parsing/debug/parsing=true
+# 	org.eclipse.equinox.p2.engine/certificatechecker/untrusted=true
+# 	org.eclipse.ui/perf/workbench.start=true
+# 	org.eclipse.ui/debug/swtdebugglobal=true
+# 	org.eclipse.core.resources/perf/listeners=true
+# 	org.eclipse.ui/trace/keyBindings.verbose=true
+# 	org.eclipse.osgi/debug/services=true
+# 	org.eclipse.osgi/resolver/providers=true
+# 	org.eclipse.help/debug/search=true
+# 	org.eclipse.ui/perf/part.control=true
+# 	org.eclipse.ui/experimental/menus=true
+# 	org.eclipse.e4.ui.workbench.swt/trace/renderer=true
+# 	org.eclipse.ui/debug/job.stale=true
+# 	com.appcelerator.titanium.ios.core/debug/provisioning=true
+# 	org.eclipse.ui/perf/uijob=true
+# 	org.eclipse.ui/trace/multipageeditor=true
+# 	com.aptana.portal.ui/debug/startpage=true
+# 	com.aptana.projects/debug=true
+# 	org.eclipse.e4.core.contexts/debug=true
+# 	com.aptana.scripting/debug/show_bundle_monitor_file_events=true
+# 	org.eclipse.ui.navigator/debug/sort=true
+# 	org.eclipse.ui.intro/debug=true
+# 	org.eclipse.osgi/eclipseadaptor/debug=true
+# 	org.eclipse.ui.navigator/debug/setup=true
+# 	com.aptana.scripting/debug/show_bundle_monitor_resource_events=true
+# 	org.eclipse.core.resources/build/invoking=true
+# 	org.eclipse.equinox.p2.engine/engine/debug=true
+# 	org.eclipse.core.resources/restore/tree=true
+# 	com.appcelerator.titanium.android.core/debug=true
+# 	com.aptana.usage/debug=true
+# 	com.aptana.projects/debug/templates=true
+# 	com.aptana.filesystem.http/debug/filesystem=true
+# 	org.eclipse.core.resources/save=true
+# 	org.eclipse.ui.intro/trace/logPerformance=true
+# 	com.aptana.editor.js/debug/show_index_writes=true
+# 	org.eclipse.core.resources/restore/syncinfo=true
+# 	org.eclipse.debug.core/debug=true
+# 	org.eclipse.ui/debug/showAllJobs=true
+# 	com.aptana.debug.ui/debug=true
+# 	org.eclipse.ui/trace/sources=true
+# 	com.aptana.editor.js/debug/show_open_declaration_types=true
+# 	com.aptana.core/debug/extension_points=true
+# 	com.aptana.debug.core/skip_debugger_install=true
+# 	com.aptana.core/debug=true
+# 	org.eclipse.core.contenttype/debug=true
+# 	org.eclipse.core.resources/build/needbuild=true
+# 	com.appcelerator.titanium.360.core/debug=true
+# 	org.eclipse.core.resources/restore/snapshots=true
+# 	org.eclipse.help.ui/debug=true
+# 	org.eclipse.debug.ui/debug/viewers/viewer=true
+# 	com.appcelerator.titanium.core/debug/tiapp=true
+# 	org.eclipse.e4.ui.workbench/trace/commands=true
+# 	com.appcelerator.titanium.publish/debug=true
+# 	com.aptana.filesystem.ftp/ftplib_debug=true
+# 	com.aptana.editor.common/debug=true
+# 	org.eclipse.core.jobs/jobs/errorondeadlock=true
+# 	org.eclipse.debug.ui/debug/viewers/updateSequence=true
+# 	org.eclipse.e4.ui.workbench/trace/workbench=true
+# 	org.eclipse.debug.core/debug/commands=true
+# 	org.eclipse.core.jobs/jobs=true
+# 	org.eclipse.core.jobs/jobs/beginend=true
+# 	org.eclipse.osgi/monitor/activation=true
+# 	org.eclipse.core.resources/perf/builders=true
+# 	org.eclipse.ui.workbench/debug=true
+# 	org.eclipse.core.runtime/debug=true
+# 	com.aptana.editor.common/debug/presentation=true
+# 	org.eclipse.ui/perf/part.activate=true
+# 	com.aptana.debug.core/debugger_debug=true
+# 	org.eclipse.help/debug=true
+# 	org.eclipse.ui/trace/perspectives=true
+# 	org.eclipse.core.resources/restore/metainfo=true
+# 	com.aptana.ui.epl/debug/relevance=true
+# 	org.eclipse.ui/trace/handlers.performance=true
+# 	org.eclipse.debug.ui/debug/contextlaunching=true
+# 	org.eclipse.ui/trace/contexts=true
+# 	org.eclipse.ui.intro/flags/noBrowser=true
+# 	com.aptana.editor.js/debug/show_content_assist_types=true
+# 	org.eclipse.e4.ui.workbench.swt/trace/eclipse.context.verbose=true
+# 	org.eclipse.equinox.security/debug=true
+# 	org.eclipse.ui/perf/part.input=true
+# 	com.aptana.core/debug/builder=true
+# 	org.eclipse.debug.ui/debug/viewers/breakpointDeltas=true
+# 	org.eclipse.debug.ui/debug/launchhistory=true
+# 	org.eclipse.e4.ui.workbench/trace/eclipse.context=true
+# 	org.eclipse.equinox.p2.engine/profileregistry/debug=true
+# 	org.eclipse.osgi/eclipseadaptor/converter/debug=true
+# 	org.eclipse.ui/listeners/IWorkbenchPartReference=true
+# 	org.eclipse.debug.ui/debug/viewers/presentationId=true
+# 	com.appcelerator.titanium.360.core/debug/services/cloudtest=true
+# 	com.appcelerator.titanium.ios.core/debug/dashboard=true
+# 	com.aptana.filesystem.ftp/perf=true
+# 	com.aptana.index.core/debug/indexer=true
+# 	org.eclipse.core.resources/history=true
+# 	com.aptana.editor.html/debug/outline=true
+# 	org.eclipse.ui/listeners/IWorkbenchWindow.IPartListener2=true
+# 	com.appcelerator.titanium.rcp/debug=true
+# 	org.eclipse.help.webapp/debug/workingsets=true
+# 	com.appcelerator.titanium.360.core/debug/services=true
+# 	org.eclipse.osgi/resolver/report=true
+# 	org.eclipse.core.resources/build/delta=true
+# 	com.appcelerator.titanium.core/debug/cli=true
+# 	org.eclipse.core.resources/save/syncinfo=true
+# 	com.aptana.editor.common/perf/content_assist/snippets=true
+# 	org.eclipse.core.expressions/tracePropertyResolving=true
+# 	org.eclipse.ui/perf/showHeapStatus=true
+# 	org.eclipse.osgi/debug/cachedmanifest=true
+# 	org.eclipse.ui/perf/part.listeners=true
+# 	org.eclipse.osgi/resolver/wiring=true
+# 	org.eclipse.e4.ui.workbench.swt/trace/menus=true
+# 	org.eclipse.core.runtime/url/debug/cachecopy=true
+# 	com.appcelerator.titanium.ios.core/debug=true
+# 	com.aptana.syncing.core/debug=true
+# 	org.eclipse.core.resources/restore=true
+# 	org.eclipse.equinox.security/debug/loginFramework=true
+# 	com.aptana.editor.html/debug/content_assist=true
+# 	org.eclipse.debug.ui/debug/breadcrumb=true
+# 	org.eclipse.e4.ui.workbench.swt/trace/workbench=true
+# 	org.eclipse.help.webapp/debug=true
+# 	com.aptana.samples/debug/manager=true
+# 	org.eclipse.osgi/debug/location=true
+# 	com.aptana.filesystem.http/debug=true
+# 	org.eclipse.osgi/debug/startlevel=true
+# 	com.aptana.git.ui/debug=true
+# 	org.eclipse.ui/trace/commands=true
+# 	org.eclipse.ui.navigator/perf/explorer/createPartControl=true
+# 	org.eclipse.core.resources/save/markers=true
+# 	com.appcelerator.titanium.360.core/debug/services/acs=true
+# 	org.eclipse.osgi/debug/manifest=true
+# 	org.eclipse.e4.core.contexts/debug/listeners=true
+# 	org.eclipse.ui.intro/trace/logInfo=true
+# 	org.eclipse.core.runtime/perf=true
+# 	com.aptana.core/debug/builder/advanced=true
+# 	org.eclipse.equinox.ds/instantiate_all=true
+# 	org.eclipse.core.resources/refresh=true
+# 	org.eclipse.e4.core.di/debug=true
+# 	com.aptana.editor.common/debug/content_assist=true
+# 	org.eclipse.debug.ui/debug=true
+# 	org.eclipse.ui.navigator/debug/viewermap=true
+# 	org.eclipse.core.resources/save/metainfo=true
+# 	org.eclipse.ui/debug/contributions=true
+# 	org.eclipse.ui/trace/operations.verbose=true
+# 	com.appcelerator.titanium.core/debug/distribution=true
+# 	org.eclipse.equinox.registry/debug/events=true
+# 	org.eclipse.core.resources/restore/mastertable=true
+# 	org.eclipse.ui.ide/debug=true
+# 	org.eclipse.ui/trace/keyBindings=true
+# 	org.eclipse.ui.navigator/debug/resolution=true
+# 	org.eclipse.debug.core/debug/events=true
+# 	org.eclipse.core.runtime/preferences/plugin=true
+# 	org.eclipse.core.jobs/jobs/timing=true
+# 	com.appcelerator.titanium.ui/debug=true
+# 	org.eclipse.ui.browser/debug=true
+# 	org.eclipse.e4.core.contexts/debug/names=true
+# 	org.eclipse.core.resources/build/interrupt=true
+# 	org.eclipse.equinox.ds/debug=true
+# 	org.eclipse.help/debug/context=true
+# 	com.appcelerator.titanium.360.core/debug/services/analytics=true
+# 	org.eclipse.osgi/debug/packageadmin=true
+# 	org.eclipse.equinox.security.ui/debug/storage=true
+# 	com.appcelerator.titanium.update.core/debug/sdk_update=true
+# 	org.eclipse.ui.intro.universal/trace/logPerformance=true
+# 	org.eclipse.equinox.preferences/set=true
+# 	org.eclipse.equinox.preferences/general=true
+# 	org.eclipse.core.expressions/debug/TypeExtensionManager=true
+# 	org.eclipse.ui/debug/workingSets=true
+# 	org.eclipse.osgi/resolver=true
+# 	org.eclipse.osgi/debug/security=true
+# 	org.eclipse.core.runtime/compatibility/debug=true
+# 	org.eclipse.ui/trace/graphics=true
+# 	org.eclipse.debug.ui/debug/memory/dynamicLoading=true
+# 	org.eclipse.team.core/debug=true
+# 	com.appcelerator.titanium.ui/debug/dashboard=true
+# 	org.eclipse.help.ui/debug/infopop=true
+# 	org.eclipse.equinox.preferences/get=true
+# 	com.aptana.editor.common/perf/content_assist=true
+# 	org.eclipse.ui/trace/handlers.verbose=true
+# 	com.aptana.formatter.ui.epl/debug=true
+# 	org.eclipse.equinox.registry/debug=true
+# 	org.eclipse.osgi/resolver/uses=true
+# 	org.eclipse.ui/trace/handlers.verbose.commandId=true
+# 	org.eclipse.equinox.ds/performance=true
+# 	org.eclipse.ui.intro/trace/printHTML=true
+# 	org.eclipse.ui.workbench/debug/e4=true
+# 	com.aptana.index.core/debug=true
+# 	org.eclipse.ui/listeners/IWorkbenchPage.IPropertyChangeListener=true
+# 	org.eclipse.e4.ui.workbench/trace/menus=true
+# 	com.appcelerator.titanium.ios.core/debug/distribution=true
+# 	org.eclipse.team.core/threading=true
+# 	org.eclipse.ui/debug=true
+# 	org.eclipse.e4.ui.workbench/trace/eclipse.context.verbose=true
+# 	org.eclipse.team.core/backgroundevents=true
+# 	org.eclipse.core.jobs/jobs/shutdown=true
+# 	org.eclipse.e4.ui.workbench.swt/trace/commands=true
+# 	com.appcelerator.titanium.update.core/debug=true
+# 	org.eclipse.e4.ui.workbench/trace/renderer=true
+# 	org.eclipse.ui.ide/debug/markers=true
+# 	org.eclipse.core.resources/debug=true
+# 	org.eclipse.osgi/debug/objectPool/dups=true
+# 	com.aptana.editor.js/debug/show_indexing_steps=true
+# 	org.eclipse.core.runtime/debug/context=true
+# 	com.aptana.ui.epl/debug/content_assist=true
+# 	org.eclipse.ui/listeners/IWorkbenchWindow.IPerspectiveListener=true
+# 	org.eclipse.debug.ui/debug/viewers/contentProvider=true
+# 	org.eclipse.core.resources/build/stacktrace=true
+# 	org.eclipse.ui/listeners/IWorkbenchWindow.IPartListener=true
+# 	org.eclipse.osgi/debug/bundleTime=true
+# 	org.eclipse.core.resources/build/failure=true
+# 	org.eclipse.ui/perf/workbench.restore=true
+# 	org.eclipse.osgi/debug/filter=true
+# 	org.eclipse.update.configurator/debug=true
+# 	com.aptana.samples/debug=true
+# 	com.appcelerator.titanium.core/debug/api=true
+# 	org.eclipse.ui.navigator/debug/dnd=true
+# 	com.aptana.usage/debug/db=true
+# 	org.eclipse.ui/trace/operations=true
+# 	org.eclipse.core.resources/contenttype=true
+# 	org.eclipse.ui/listeners/IWorkbenchPage.IPartListener2=true
+# 	org.eclipse.equinox.ds/print_on_console=true
+# 	org.eclipse.osgi/debug/loader=true
+# 	org.eclipse.core.resources/preferences=true
+# 	com.appcelerator.titanium.core/debug=true
+# 	org.eclipse.core.resources/perf/snapshot=true
+# 	org.eclipse.ui/trace/handlers=true
+# 	org.eclipse.ui/perf/perspective.listeners=true
+# 	org.eclipse.e4.core.di/debug/injector=true
+# 	org.eclipse.osgi/debug/events=true
+# 	com.aptana.editor.common/debug/partitioner=true
+# 	com.aptana.parsing/debug=true
+# 	org.eclipse.ui/trace/contexts.verbose=true
+# 	org.eclipse.equinox.security.ui/debug=true
+# 	com.appcelerator.titanium.android.core/debug/distribution=true
+# 	org.eclipse.e4.core.services/debug/injector=true
+# 	org.eclipse.ui/perf/perspective.create=true
+# 	com.aptana.scripting/debug/show_element_registration=true
+# 	com.aptana.js.core/debug/show_indexing_steps=true
+# 	org.eclipse.ui/trace/contexts.performance=true
+# 	org.eclipse.e4.ui.workbench/debug=true
+# 	org.eclipse.core.runtime/url/debug=true
+# 	org.eclipse.ui/perf/part.init=true
+# 	org.eclipse.core.runtime/perf/success=true
+# 	com.appcelerator.titanium.publish/debug/api=true
+# 	org.eclipse.ui/listeners/IWorkbenchWindow.IPageListener=true
+# 	org.eclipse.ltk.core.refactoring/perf/participants/createChanges=true
+# 	org.eclipse.osgi/eclipseadaptor/debug/platformadmin=true
+# 	org.eclipse.core.resources/natures=true
+# 	com.aptana.js.core/debug/show_index_writes=true
+# 	org.eclipse.team.core/refreshjob=true
+# 	com.aptana.core/debug/shell/output=true
+# 	org.eclipse.core.resources/perf/save.participants=true
+# 	com.aptana.core.io/debug/connections=true
+| main | 2016-04-10 14:33:15.594 | org.eclipse.e4.ui.workbench.swt | /trace/workbench | org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator | trace | 147 | setting mwindow context TrimmedWindowImpl (IDEWindow) Context |
+| main | 2016-04-10 14:33:17.774 | org.eclipse.e4.ui.workbench | /trace/menus | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | command: ParameterizedCommand(Command(org.eclipse.debug.ui.commands.OpenRunConfigurations,Run...,
+		Open run launch configuration dialog,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27e65699,
+		,,true),null) |
+| main | 2016-04-10 14:33:17.774 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MHandledMenuItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.776 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MMenuItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.776 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.776 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUIElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.776 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.MApplicationElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.776 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.777 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUILabel for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.777 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.777 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MMenuElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.777 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUIElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.777 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.MApplicationElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.777 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.778 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUILabel for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.778 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.778 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MHandledItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.778 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.778 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUIElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.778 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.MApplicationElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.779 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.779 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUILabel for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.779 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.782 | org.eclipse.e4.ui.workbench.swt | /trace/menus | org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator | trace | 147 | cleanUp: Menu {}: null |
+| main | 2016-04-10 14:33:17.783 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MHandledMenuItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.783 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MMenuItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUIElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.MApplicationElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUILabel for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.784 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MMenuElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.785 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUIElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.785 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.MApplicationElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.785 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.785 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUILabel for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.785 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.785 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MHandledItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.786 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.menu.MItem for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.786 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUIElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.786 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.MApplicationElement for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.786 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.786 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MUILabel for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:17.786 | org.eclipse.e4.ui.workbench | /trace/eclipse.context | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | Adding org.eclipse.e4.ui.model.application.ui.MLocalizable for org.eclipse.e4.ui.model.application.ui.menu.impl.HandledMenuItemImpl |
+| main | 2016-04-10 14:33:23.748 | org.eclipse.e4.ui.workbench.swt | /trace/workbench | org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator | trace | 147 | setting mwindow context TrimmedWindowImpl (IDEWindow) Context |
+| main | 2016-04-10 14:33:42.270 | org.eclipse.e4.ui.workbench.swt | /trace/workbench | org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator | trace | 147 | setting mwindow context TrimmedWindowImpl (IDEWindow) Context |
+| main | 2016-04-10 14:33:46.997 | org.eclipse.e4.ui.workbench | /trace/commands | org.eclipse.e4.ui.internal.workbench.Activator | trace | 163 | execute Command(org.eclipse.ui.window.preferences,Preferences,
+		Open the preferences dialog,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a1dbe0,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@6c6a5286,,true) and org.eclipse.ui.internal.handlers.ShowPreferencePageHandler@38501305 with: PartImpl (org.eclipse.e4.ui.compatibility.editor) Context |
+| main | 2016-04-10 14:33:47.159 | org.eclipse.e4.ui.workbench.swt | /trace/workbench | org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator | trace | 147 | setting mwindow context TrimmedWindowImpl (IDEWindow) Context |
