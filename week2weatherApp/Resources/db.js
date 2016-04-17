@@ -2,7 +2,7 @@ var tbl = [];
 
 var create = function(lat, lng) {
 	var db = Ti.Database.open("locationInfo");
-	db.execute("CREATE TABLE IF NOT EXISTS asdTBL (id INTEGER PRIMARY KEY, city TEXT, state TEXT, temp TEXT, icon TEXT, feelslike TEXT, humidity TEXT, wind TEXT, forecast TEXT, weather TEXT, time TEXT, zip TEXT, gust TEXT, dew TEXT, heat TEXT, chill TEXT, visibility TEXT)");
+	db.execute("CREATE TABLE IF NOT EXISTS asdTBL (id INTEGER PRIMARY KEY, city TEXT, state TEXT, temp TEXT, icon BLOB, feelslike TEXT, humidity TEXT, wind TEXT, forecast TEXT, weather TEXT, time TEXT, zip TEXT, gust TEXT, dew TEXT, heat TEXT, chill TEXT, visibility TEXT)");
 	var rows = db.execute("SELECT id, city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility");
 	while (rows.isValidRow()){
 		tbl.push({
@@ -28,12 +28,15 @@ var create = function(lat, lng) {
 	};
 	console.log(tbl);
 	rows.close();
+	db.close();
+	var ui = require("ui");
+	ui.UiData(tbl);
 };
 var update = function(info) {
 	var last = Ti.Database.open("locationInfo");
 	last.execute ("CREATE TABLE IF NOT EXISTS asdTBL (id INTEGER PRIMARY KEY, city TEXT, state TEXT, temp TEXT, icon TEXT, feelslike TEXT, humidity TEXT, wind TEXT, forecast TEXT, weather TEXT, time TEXT, zip TEXT, gust TEXT, dew TEXT, heat TEXT, chill TEXT, visibility TEXT)");
-	last.execute ("UPDATE FROM tbl");
-	last.execute ("INSERT INTO tbl (city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility");
+	last.execute ("delete FROM asdTBL");
+	last.execute ("INSERT INTO asdTBL (city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility");
 	last.close();
 	read();
 };

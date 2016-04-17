@@ -1,0 +1,8 @@
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/android/support/v7/cardview/R.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/com/fullsail/week2weatherApp/AssetCryptImpl.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/com/fullsail/week2weatherApp/R.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/com/fullsail/week2weatherApp/Week2weatherappActivity.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/com/fullsail/week2weatherApp/Week2weatherappAppInfo.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/com/fullsail/week2weatherApp/Week2weatherappApplication.java"
+"/Users/school/Desktop/AVF/week2weatherApp/build/android/gen/ti/modules/titanium/ui/R.java"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.appcelerator.titanium.mobile.ui.android.installer.launchConfigurationType">
 <stringAttribute key="ATTR_PROJECT_NAME" value="week2weatherApp"/>
-<stringAttribute key="device-id" value="192.168.56.107:5555"/>
+<stringAttribute key="device-id" value="192.168.56.108:5555"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/week2weatherApp"/>
 </listAttribute>

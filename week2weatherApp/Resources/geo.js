@@ -19,6 +19,8 @@ var geoFun = function() {
 			});
 		} else {
 			alert("please enable location services to retreieve weather information");
+			var database = ("db");
+			database.open();
 		}
 	}
 };
