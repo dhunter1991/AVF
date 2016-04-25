@@ -16,6 +16,10 @@
     <ios>
         <plist>
             <dict>
+            	 <key>NSLocationAlwaysUsageDescription</key>
+                <array>
+                    <string>allow location cords</string>
+                </array>
                 <key>UISupportedInterfaceOrientations~iphone</key>
                 <array>
                     <string>UIInterfaceOrientationPortrait</string>
@@ -49,6 +53,9 @@
     </mobileweb>
     <modules>
         <module platform="commonjs">ti.cloud</module>
+    </modules>
+       <modules>
+        <module platform="iphone">ti.map</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>
