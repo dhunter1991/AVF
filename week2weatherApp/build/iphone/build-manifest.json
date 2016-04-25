@@ -3047,7 +3047,7 @@
 		},
 		"DefaultIcon.png": {
 			"hash": "2b9a6a92f5ce2a04127766211dbc4542",
-			"mtime": "2016-04-17T21:09:02.000Z",
+			"mtime": "2016-04-25T23:14:45.000Z",
 			"size": 77826
 		},
 		"KS_nav_ui.png": {
@@ -3121,9 +3121,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "d7884a8cde2d700a5def9d14f23b38b3",
-			"mtime": "2016-04-17T21:09:05.000Z",
-			"size": 183546
+			"hash": "b2ace2b6196a5b0406e13bd5a896cf09",
+			"mtime": "2016-04-25T23:14:48.000Z",
+			"size": 199780
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3141,18 +3141,16 @@
 			"size": 3126
 		}
 	},
-	"target": "device",
-	"deployType": "test",
+	"target": "simulator",
+	"deployType": "development",
 	"sdkVersion": "5.1.0.GA",
 	"iosSdkVersion": "9.3",
 	"deviceFamily": "universal",
 	"iosSdkPath": "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
-	"developerName": "lovetoskate247@yahoo.com (3H8HJN9K6W)",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"gitHash": "0913213",
-	"ppUuid": "3533de9a-2f5f-40d7-af8d-e323111a7da5",
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "week2weatherApp",
@@ -3161,11 +3159,11 @@
 	"publisher": "school",
 	"url": "",
 	"version": "1.0",
-	"description": "",
+	"description": "undefined",
 	"copyright": "2016 by school",
 	"guid": "8decefdd-fa5e-4c5d-9eee-2acb321ddc6f",
-	"skipJSMinification": false,
-	"encryptJS": true,
+	"skipJSMinification": true,
+	"encryptJS": false,
 	"useJSCore": false,
 	"runOnMainThread": false,
 	"useAutoLayout": false

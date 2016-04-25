@@ -1,1 +1,49 @@
-var create=function(e){console.log(create);var t=Ti.Database.open("locationInfo");t.execute("CREATE TABLE IF NOT EXISTS asdTBL (id INTEGER PRIMARY KEY, city TEXT, state TEXT, temp TEXT, icon , feelslike TEXT, humidity TEXT, wind TEXT, forecast TEXT, weather TEXT, time TEXT, zip TEXT, gust TEXT, dew TEXT, heat TEXT, chill TEXT, visibility TEXT)"),t.execute("INSERT INTO asdTBL (city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility)"),t.close(),read()},read=function(){console.log(read);var e=Ti.Database.open("locationInfo"),t=e.execute("SELECT city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility FROM asdTBL");if(t.rowCount>0){for(var i=[];t.isValidRow();){var o={id:t.fieldByName("id"),city:t.fieldByName("city"),state:t.fieldByName("state"),temp:t.fieldByName("temp"),icon:t.fieldByName("icon"),feelslike:t.fieldByName("feelslike"),humidity:t.fieldByName("humidity"),wind:t.fieldByName("wind"),forecast:t.fieldByName("forecast"),weather:t.fieldByName("weather"),time:t.fieldByName("time"),zip:t.fieldByName("zip"),gust:t.fieldByName("gust"),dew:t.fieldByName("dew"),heat:t.fieldByName("heat"),chill:t.fieldByName("chill"),visibility:t.fieldByName("visibility")};i.push(o),t.next()}var a=require("api");a.api(i)}else alert("no previous data");t.close(),e.close()};exports.create=create,exports.read=read;
+
+
+var create = function(UiData) {
+	console.log(create);
+	var db = Ti.Database.open("locationInfo");
+	db.execute("CREATE TABLE IF NOT EXISTS asdTBL (id INTEGER PRIMARY KEY, city TEXT, state TEXT, temp TEXT, icon , feelslike TEXT, humidity TEXT, wind TEXT, forecast TEXT, weather TEXT, time TEXT, zip TEXT, gust TEXT, dew TEXT, heat TEXT, chill TEXT, visibility TEXT)");
+	db.execute ("INSERT INTO asdTBL (city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility)");
+	db.close();
+	read();
+};
+var read = function(){
+	console.log(read);
+	var db = Ti.Database.open("locationInfo");
+	var rows = db.execute("SELECT city, state, temp, icon, feelslike, humidity, wind, forecast, weather, time, zip, gust, dew, heat, chill, visibility FROM asdTBL");
+	if (rows.rowCount > 0){
+	var dbArray = [];
+	while (rows.isValidRow()){
+		var dbInfo = {
+			id: rows.fieldByName("id"),
+			city: rows.fieldByName("city"),
+			state: rows.fieldByName("state"),
+			temp: rows.fieldByName ("temp"),
+			icon: rows.fieldByName ("icon"),
+			feelslike: rows.fieldByName ("feelslike"),
+			humidity: rows.fieldByName ("humidity"),
+			wind: rows.fieldByName ("wind"),
+			forecast: rows.fieldByName ("forecast"),
+			weather: rows.fieldByName ("weather"),
+			time: rows.fieldByName ("time"),
+			zip: rows.fieldByName ("zip"),
+			gust: rows.fieldByName ("gust"),
+			dew: rows.fieldByName ("dew"),
+			heat: rows.fieldByName ("heat"),
+			chill: rows.fieldByName ("chill"),
+			visibility: rows.fieldByName ("visibility")
+		};
+		dbArray.push(dbInfo);
+		rows.next();
+	}
+	var uiModule = require("api");
+	uiModule.api(dbArray);
+	}else{
+		alert("no previous data");
+	}
+rows.close();
+db.close();
+};
+exports.create = create;
+exports.read = read;
