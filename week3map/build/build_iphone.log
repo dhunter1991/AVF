@@ -4499,3 +4499,5 @@ Command
 [TRACE]  [ioslib] App launched
 [TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/591E7FB3-C009-4109-AEFA-E9374887653B/Documents/0e3fa2ba-123f-490c-9ddd-a9dae3a2bfa5.log
 [TRACE]  [week3map] assertion failed: 15E65 13E230: libxpc.dylib + 71506 [6F98A9DA-B46E-3A2B-88D4-92F1EC77477F]: 0x7d
+[TRACE]  [ioslib] iPad 2 Simulator has exited
+[TRACE]  [ioslib] Exited with code: undefined

@@ -3060,16 +3060,6 @@
 			"mtime": "2016-04-10T04:51:29.000Z",
 			"size": 683
 		},
-		"images/back.png": {
-			"hash": "ff55f1f2d46a80c94aba3d07db08956b",
-			"mtime": "2016-04-10T14:57:27.000Z",
-			"size": 323365
-		},
-		"images/clouds.jpg": {
-			"hash": "9a1a650a4f328b561bde0b9215106d30",
-			"mtime": "2016-04-10T14:46:24.000Z",
-			"size": 8338
-		},
 		"Default-Landscape.png": {
 			"hash": "de8542049812d8a4f802b2b8e9080570",
 			"mtime": "2016-04-10T04:51:29.000Z",
@@ -3091,9 +3081,9 @@
 			"size": 2228874
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "fb26d965d8eea14f381c9abf3a02d19d",
-			"mtime": "2015-11-19T05:49:10.000Z",
-			"size": 493
+			"hash": "972c75d791ac4f9eb83f2e6d1c668029",
+			"mtime": "2016-04-25T23:33:13.000Z",
+			"size": 189584
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",

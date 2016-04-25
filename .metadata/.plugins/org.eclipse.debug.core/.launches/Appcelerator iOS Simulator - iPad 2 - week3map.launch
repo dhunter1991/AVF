@@ -2,7 +2,7 @@
 <launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.simulator.launchConfigurationType">
 <booleanAttribute key="ATTR_CLEAN_BEFORE_LAUNCH" value="false"/>
 <stringAttribute key="ATTR_PROJECT_NAME" value="week3map"/>
-<stringAttribute key="device_id" value="79BCC3D2-8A7F-473C-A19C-05BC92C586D0"/>
+<stringAttribute key="device_id" value="26A2BFB3-686B-42ED-8AF5-A9568AAFAC87"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/week3map"/>
 </listAttribute>
