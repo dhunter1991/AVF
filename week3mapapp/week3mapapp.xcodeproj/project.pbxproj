@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF97280D1CCEC97600612C25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97280C1CCEC97600612C25 /* main.m */; };
+		BF9728101CCEC97600612C25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97280F1CCEC97600612C25 /* AppDelegate.m */; };
+		BF9728131CCEC97600612C25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9728121CCEC97600612C25 /* ViewController.m */; };
+		BF9728161CCEC97600612C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9728141CCEC97600612C25 /* Main.storyboard */; };
+		BF9728181CCEC97600612C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9728171CCEC97600612C25 /* Assets.xcassets */; };
+		BF97281B1CCEC97600612C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9728191CCEC97600612C25 /* LaunchScreen.storyboard */; };
+		BF9728261CCEC97600612C25 /* week3mapappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9728251CCEC97600612C25 /* week3mapappTests.m */; };
+		BF9728311CCEC97600612C25 /* week3mapappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9728301CCEC97600612C25 /* week3mapappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9728221CCEC97600612C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9728001CCEC97600612C25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9728071CCEC97600612C25;
+			remoteInfo = week3mapapp;
+		};
+		BF97282D1CCEC97600612C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9728001CCEC97600612C25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9728071CCEC97600612C25;
+			remoteInfo = week3mapapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9728081CCEC97600612C25 /* week3mapapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week3mapapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF97280C1CCEC97600612C25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF97280E1CCEC97600612C25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF97280F1CCEC97600612C25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF9728111CCEC97600612C25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF9728121CCEC97600612C25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF9728151CCEC97600612C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9728171CCEC97600612C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF97281A1CCEC97600612C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF97281C1CCEC97600612C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9728211CCEC97600612C25 /* week3mapappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week3mapappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9728251CCEC97600612C25 /* week3mapappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week3mapappTests.m; sourceTree = "<group>"; };
+		BF9728271CCEC97600612C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF97282C1CCEC97600612C25 /* week3mapappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week3mapappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9728301CCEC97600612C25 /* week3mapappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week3mapappUITests.m; sourceTree = "<group>"; };
+		BF9728321CCEC97600612C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9728051CCEC97600612C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF97281E1CCEC97600612C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9728291CCEC97600612C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9727FF1CCEC97600612C25 = {
+			isa = PBXGroup;
+			children = (
+				BF97280A1CCEC97600612C25 /* week3mapapp */,
+				BF9728241CCEC97600612C25 /* week3mapappTests */,
+				BF97282F1CCEC97600612C25 /* week3mapappUITests */,
+				BF9728091CCEC97600612C25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9728091CCEC97600612C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9728081CCEC97600612C25 /* week3mapapp.app */,
+				BF9728211CCEC97600612C25 /* week3mapappTests.xctest */,
+				BF97282C1CCEC97600612C25 /* week3mapappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF97280A1CCEC97600612C25 /* week3mapapp */ = {
+			isa = PBXGroup;
+			children = (
+				BF97280E1CCEC97600612C25 /* AppDelegate.h */,
+				BF97280F1CCEC97600612C25 /* AppDelegate.m */,
+				BF9728111CCEC97600612C25 /* ViewController.h */,
+				BF9728121CCEC97600612C25 /* ViewController.m */,
+				BF9728141CCEC97600612C25 /* Main.storyboard */,
+				BF9728171CCEC97600612C25 /* Assets.xcassets */,
+				BF9728191CCEC97600612C25 /* LaunchScreen.storyboard */,
+				BF97281C1CCEC97600612C25 /* Info.plist */,
+				BF97280B1CCEC97600612C25 /* Supporting Files */,
+			);
+			path = week3mapapp;
+			sourceTree = "<group>";
+		};
+		BF97280B1CCEC97600612C25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF97280C1CCEC97600612C25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9728241CCEC97600612C25 /* week3mapappTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9728251CCEC97600612C25 /* week3mapappTests.m */,
+				BF9728271CCEC97600612C25 /* Info.plist */,
+			);
+			path = week3mapappTests;
+			sourceTree = "<group>";
+		};
+		BF97282F1CCEC97600612C25 /* week3mapappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9728301CCEC97600612C25 /* week3mapappUITests.m */,
+				BF9728321CCEC97600612C25 /* Info.plist */,
+			);
+			path = week3mapappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9728071CCEC97600612C25 /* week3mapapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9728351CCEC97600612C25 /* Build configuration list for PBXNativeTarget "week3mapapp" */;
+			buildPhases = (
+				BF9728041CCEC97600612C25 /* Sources */,
+				BF9728051CCEC97600612C25 /* Frameworks */,
+				BF9728061CCEC97600612C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = week3mapapp;
+			productName = week3mapapp;
+			productReference = BF9728081CCEC97600612C25 /* week3mapapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9728201CCEC97600612C25 /* week3mapappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9728381CCEC97600612C25 /* Build configuration list for PBXNativeTarget "week3mapappTests" */;
+			buildPhases = (
+				BF97281D1CCEC97600612C25 /* Sources */,
+				BF97281E1CCEC97600612C25 /* Frameworks */,
+				BF97281F1CCEC97600612C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9728231CCEC97600612C25 /* PBXTargetDependency */,
+			);
+			name = week3mapappTests;
+			productName = week3mapappTests;
+			productReference = BF9728211CCEC97600612C25 /* week3mapappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF97282B1CCEC97600612C25 /* week3mapappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF97283B1CCEC97600612C25 /* Build configuration list for PBXNativeTarget "week3mapappUITests" */;
+			buildPhases = (
+				BF9728281CCEC97600612C25 /* Sources */,
+				BF9728291CCEC97600612C25 /* Frameworks */,
+				BF97282A1CCEC97600612C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF97282E1CCEC97600612C25 /* PBXTargetDependency */,
+			);
+			name = week3mapappUITests;
+			productName = week3mapappUITests;
+			productReference = BF97282C1CCEC97600612C25 /* week3mapappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9728001CCEC97600612C25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "jennifer McCarrick";
+				TargetAttributes = {
+					BF9728071CCEC97600612C25 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5B496QY33W;
+					};
+					BF9728201CCEC97600612C25 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5B496QY33W;
+						TestTargetID = BF9728071CCEC97600612C25;
+					};
+					BF97282B1CCEC97600612C25 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5B496QY33W;
+						TestTargetID = BF9728071CCEC97600612C25;
+					};
+				};
+			};
+			buildConfigurationList = BF9728031CCEC97600612C25 /* Build configuration list for PBXProject "week3mapapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9727FF1CCEC97600612C25;
+			productRefGroup = BF9728091CCEC97600612C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9728071CCEC97600612C25 /* week3mapapp */,
+				BF9728201CCEC97600612C25 /* week3mapappTests */,
+				BF97282B1CCEC97600612C25 /* week3mapappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9728061CCEC97600612C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF97281B1CCEC97600612C25 /* LaunchScreen.storyboard in Resources */,
+				BF9728181CCEC97600612C25 /* Assets.xcassets in Resources */,
+				BF9728161CCEC97600612C25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF97281F1CCEC97600612C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF97282A1CCEC97600612C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9728041CCEC97600612C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9728131CCEC97600612C25 /* ViewController.m in Sources */,
+				BF9728101CCEC97600612C25 /* AppDelegate.m in Sources */,
+				BF97280D1CCEC97600612C25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF97281D1CCEC97600612C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9728261CCEC97600612C25 /* week3mapappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9728281CCEC97600612C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9728311CCEC97600612C25 /* week3mapappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9728231CCEC97600612C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9728071CCEC97600612C25 /* week3mapapp */;
+			targetProxy = BF9728221CCEC97600612C25 /* PBXContainerItemProxy */;
+		};
+		BF97282E1CCEC97600612C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9728071CCEC97600612C25 /* week3mapapp */;
+			targetProxy = BF97282D1CCEC97600612C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9728141CCEC97600612C25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9728151CCEC97600612C25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9728191CCEC97600612C25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF97281A1CCEC97600612C25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9728331CCEC97600612C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF9728341CCEC97600612C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9728361CCEC97600612C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = week3mapapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.week3map;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9728371CCEC97600612C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = week3mapapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.week3map;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF9728391CCEC97600612C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = week3mapappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.week3mapappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/week3mapapp.app/week3mapapp";
+			};
+			name = Debug;
+		};
+		BF97283A1CCEC97600612C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = week3mapappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.week3mapappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/week3mapapp.app/week3mapapp";
+			};
+			name = Release;
+		};
+		BF97283C1CCEC97600612C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = week3mapappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.week3mapappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = week3mapapp;
+			};
+			name = Debug;
+		};
+		BF97283D1CCEC97600612C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = week3mapappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullsail.week3mapappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = week3mapapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9728031CCEC97600612C25 /* Build configuration list for PBXProject "week3mapapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9728331CCEC97600612C25 /* Debug */,
+				BF9728341CCEC97600612C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9728351CCEC97600612C25 /* Build configuration list for PBXNativeTarget "week3mapapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9728361CCEC97600612C25 /* Debug */,
+				BF9728371CCEC97600612C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9728381CCEC97600612C25 /* Build configuration list for PBXNativeTarget "week3mapappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9728391CCEC97600612C25 /* Debug */,
+				BF97283A1CCEC97600612C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF97283B1CCEC97600612C25 /* Build configuration list for PBXNativeTarget "week3mapappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF97283C1CCEC97600612C25 /* Debug */,
+				BF97283D1CCEC97600612C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9728001CCEC97600612C25 /* Project object */;
+}
