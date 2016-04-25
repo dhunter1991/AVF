@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.simulator.launchConfigurationType">
+<booleanAttribute key="ATTR_CLEAN_BEFORE_LAUNCH" value="false"/>
 <stringAttribute key="ATTR_PROJECT_NAME" value="newTestApp"/>
 <stringAttribute key="device_id" value="28AD5081-EF91-46D1-8496-CDBC0DB38268"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">

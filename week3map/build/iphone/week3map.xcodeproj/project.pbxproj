@@ -2804,7 +2804,7 @@
 				);
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = "week3map";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "2";
 				ONLY_ACTIVE_ARCH = NO;
 				DEAD_CODE_STRIPPING = YES;
 				SDKROOT = iphoneos;
@@ -2836,7 +2836,7 @@
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
 				);
 				PRODUCT_NAME = "week3map";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "2";
 				ONLY_ACTIVE_ARCH = NO;
 				DEAD_CODE_STRIPPING = YES;
 				SDKROOT = iphoneos;

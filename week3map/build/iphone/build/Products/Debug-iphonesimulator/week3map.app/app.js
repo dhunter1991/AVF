@@ -18,7 +18,7 @@ var navWindow = Ti.UI.iOS.createNavigationWindow({
 	rightNavButtons: logout
 });
 }else{
-}
+};
 // username text feild 
 var user = Ti.UI.createTextField({
 	hintText: " username",
@@ -31,8 +31,7 @@ var user = Ti.UI.createTextField({
 var userExample = Ti.UI.createLabel({
 	text: "Example: dhunter1@fullsail.edu",
 	top: user.top + user.height,
-	font: {fontSize: 10, fontFamily: "arial", fontWeight: "regular"},
-	left: 62
+	font: {fontSize: 19, fontFamily: "arial", fontWeight: "regular"},
 });
 // password text feild 
 var password = Ti.UI.createTextField({
@@ -63,10 +62,16 @@ var signOn = Ti.UI.createButton({
 var loadfile2 = require("signUp");
 // opens navigation window and main window
 if(Ti.osname === "iOS"){
-win.add(image, user, password, create, signOn, userExample);
+win.add(image);
+win.add(user);
+win.add(password);
+win.add(create);
+win.add(signOn);
+win.add(userExample);
 navWindow.open();
 }else{
-	win.add(image);
+win.add(image);
+win.add(user);
 win.add(password);
 win.add(create);
 win.add(signOn);
