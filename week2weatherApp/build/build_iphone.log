@@ -287,3 +287,8 @@ Command
 [TRACE]  [ioslib] Running: osascript "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
 [TRACE]  [ioslib] iPad 2 Simulator successfully focused
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 28AD5081-EF91-46D1-8496-CDBC0DB38268 /Users/school/Desktop/AVF/week2weatherApp/build/iphone/build/Products/Debug-iphonesimulator/week2weatherApp.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 28AD5081-EF91-46D1-8496-CDBC0DB38268 com.fullsail.week2weatherApp
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/0E499055-8F38-4CD9-A01F-B47D1D492D8A/Documents/8decefdd-fa5e-4c5d-9eee-2acb321ddc6f.log
+[TRACE]  [week2weatherApp] assertion failed: 15E65 13E230: libxpc.dylib + 71506 [6F98A9DA-B46E-3A2B-88D4-92F1EC77477F]: 0x7d
