@@ -1,0 +1,10 @@
+//var run = function(dataInfo){
+//var annotations = MapModule.createAnnotation({
+	//latitude: dataInfo.lat,
+	//longitude: dataInfo.lng,
+	//title: dataInfo.name,
+	//subtitle: dataInfo.location,
+	//pincolor: MapModule.ANNOTATION_RED,
+//});
+//};
+//exports.run = run;

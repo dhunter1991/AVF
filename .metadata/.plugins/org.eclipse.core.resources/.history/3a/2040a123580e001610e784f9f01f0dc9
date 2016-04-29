@@ -1,0 +1,33 @@
+
+var pull = function (dbInfo){
+	var MapModule = require('ti.map');
+	var win2 = Ti.UI.createWindow({
+	backgroundColor: "#000"
+});
+var annotations = MapModule.createAnnotation({
+	latitude:38.24703359898064,
+	longitude:-78.11170510273202,
+	title:"Family Dollar",
+	subtitle:"143 madison rd",
+	pincolor: MapModule.ANNOTATION_RED
+});
+var mapview = MapModule.createView({
+	top: 0,
+	height: "100%",
+    mapType: MapModule.STANDARD_TYPE,
+    region: {latitude:dbInfo.lat, 
+    		longitude:dbInfo.lng,
+            latitudeDelta:0.5, 
+            longitudeDelta:0.5},
+    animate:true,
+    regionFit:true,
+    userLocation:true,
+    annotations: annotations
+});
+win2.add(mapview);
+navWindow.openWindow(win2);
+};
+//https://api.foursquare.com/v2/venues/search?ll=38.2454,-78.11&radius=500&client_id=KD2SISOWGCQ2QU1ZAENHUC41JD4T2YR5GXGVZCY5OICGODD5&client_secret=0EN33YU2BD3DABMPVDI5Q515LO0FUZVJ0YAHGIDDIC3SA5BS&v=20160429
+exports.pull = pull;
+
+

@@ -1,0 +1,31 @@
+var data = function(lat, lng){
+	var url = "https://api.foursquare.com/v2/venues/search?ll=38.24,-78.11&radius=500&limit=5&client_id=KD2SISOWGCQ2QU1ZAENHUC41JD4T2YR5GXGVZCY5OICGODD5&client_secret=0EN33YU2BD3DABMPVDI5Q515LO0FUZVJ0YAHGIDDIC3SA5BS&v=20160429";
+	console.log("url");
+	 	var getData = Ti.Network.createHTTPClient({
+	 	       onload: function(e){
+	 		var json = JSON.parse(this.responseText);
+	 		console.log(json);
+	 		var dataArray = [];
+	 		for (i = 0, j =json.response.venues.length; i<j; i++){
+	 		var dataInfo = {
+	 			name: json.response.venues[i].name,
+	 			location: json.response.venues[i].location,
+	 			lat: json.response.venues[i].lat,
+	 			lng: json.response.venues[i].lng,
+	 			phone: json.response.venues[i].formattedphone
+	 			
+	 		};
+	 		var mapData = require("modulemap");
+	 		mapData.run(dataArray);
+	 		dataArray.push(dataInfo);
+	 	};
+	 	},
+	 	onerror: function(e){
+			alert("error has occured please check connection");
+			},
+			timeout: 5000
+	 });
+	 	getData.open("GET", url);
+	 	getData.send();
+};
+exports.data = data;

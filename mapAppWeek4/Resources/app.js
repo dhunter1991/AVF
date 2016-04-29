@@ -24,17 +24,19 @@ var user = Ti.UI.createTextField({
 	hintText: " dhunter1@fullsail.edu",
 	top: 200,
 	borderColor: "black",
+	borderRadius: 10,
 	width: 250,
-	height: 40,
+	height: 50,
 	backgroundColor: "#fff"
 });
 // password text feild 
 var password = Ti.UI.createTextField({
 	hintText: " password",
-	top: 250,
+	top: 270,
 	borderColor: "black",
+	borderRadius: 10,
 	width: 250,
-	height: 40,
+	height: 50,
 	passwordMask: true,
 	backgroundColor: "#fff"
 });
@@ -44,7 +46,7 @@ var create = Ti.UI.createButton({
 	width: 200,
 	height: 50,
 	color: "#fff",
-	top: password.top + 90,
+	top: password.top + 120,
 });
 // log in button
 var signOn = Ti.UI.createButton({
@@ -53,7 +55,7 @@ var signOn = Ti.UI.createButton({
 	height: 30,
 	borderRadius: 5,
 	backgroundColor: "green",
-	top: password.top + 75
+	top: password.top + 90
 });
 // opens navigation window and main window
 if(Ti.Platform.osname === "android"){

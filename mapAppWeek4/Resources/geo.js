@@ -1,9 +1,10 @@
+
 var geoFun = function() {
 	if (Ti.Platform.osname === "android") {
 		var lat = 38.2454;
 		var lng = -78.1108;
-		var uiMod = require("modulemap");
-		uiMod.run(lat, lng);
+		var uimap = require("modulemap");
+		uimap.pull();
 	} else {
 		if (Ti.Geolocation.locationServicesEnabled) {
 			Ti.Geolocation.getCurrentPosition(function(e){
@@ -13,14 +14,16 @@ var geoFun = function() {
 					console.log(e);
 					var lat = e.coords.latitude;
 					var lng = e.coords.longitude;
-					var save = require("db");
-			    	save.save(lat,lng);
+			    	var anno = require("api");
+			    	anno.data(lat, lng);
 				}
+				var save = require("db");
+			    save.save(lat,lng);
 			});
 		} else {
 			alert("No connection loading map from last location");
 			var read = require("db");
-			read.read(lat,lng);
+			read.read();
 		}
 	}
 };

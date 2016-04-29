@@ -13,16 +13,18 @@ var signUp = function (){
 		hintText: " dhunter1@fullsail.edu",
 		top: 100,
 		borderColor: "black",
+		borderRadius: 10,
 		width: 320,
-		height: 30,
+		height: 40,
 		backgroundColor: "#fff"
 	});
 	var newPassword = Ti.UI.createTextField({
 		hintText: " password",
 		top: newUser.top + 75,
 		borderColor: "black",
+		borderRadius: 10,
 		width: 320,
-		height: 30,
+		height: 40,
 		passwordMask: true,
 		backgroundColor: "#fff"
 	});
@@ -30,8 +32,9 @@ var signUp = function (){
 		hintText: " confirm password",
 		top: newPassword.top + 75,
 		borderColor: "black",
+		borderRadius: 10,
 		width: 320,
-		height: 30,
+		height: 40,
 		passwordMask: true,
 		backgroundColor: "#fff"
 	});
@@ -39,19 +42,21 @@ var signUp = function (){
 		title: "cancel",
 		right: 20,
 		width: 150,
-		height: 30,
+		height: 40,
 		bottom: 50,
-		borderRadius: 5,
-		backgroundColor: "red"
+		borderRadius: 10,
+		backgroundColor: "red",
+		color: "black"
 	});
 	var confirmButton = Ti.UI.createButton({
 		title: "Register",
 		left: 20,
 		width: 150,
-		height: 30,
+		height: 40,
 		bottom: 50,
-		borderRadius: 5,
-		BackgroundColor: "green"
+		borderRadius: 10,
+		BackgroundColor: "green",
+		color: "black "
 	});
 	if(Ti.Platform.osname === "android"){
 		signUpWin.add(image);

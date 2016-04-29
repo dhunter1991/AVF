@@ -3047,7 +3047,7 @@
 		},
 		"DefaultIcon.png": {
 			"hash": "2b9a6a92f5ce2a04127766211dbc4542",
-			"mtime": "2016-04-29T19:21:21.000Z",
+			"mtime": "2016-04-29T21:59:54.000Z",
 			"size": 77826
 		},
 		"KS_nav_ui.png": {
@@ -3121,9 +3121,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "b2e29c6e697b922898209c28077f0b8a",
-			"mtime": "2016-04-29T19:21:24.000Z",
-			"size": 199780
+			"hash": "fb26d965d8eea14f381c9abf3a02d19d",
+			"mtime": "2015-11-19T05:49:10.000Z",
+			"size": 493
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
