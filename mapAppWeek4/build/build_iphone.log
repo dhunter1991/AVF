@@ -1,0 +1,693 @@
+
+4/29/2016, 11:41:25 AM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.11.4
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 4.2.2
+  npm Version                 = 2.14.7
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.0.GA
+  SDK Path                    = /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/mapAppWeek4 --target device --ios-version 9.3 --device-family universal --developer-name lovetoskate247@yahoo.com (3H8HJN9K6W) --device-id 709a1e804c94e816083c5097792cc5959945823e --pp-uuid c8cfc54f-9729-4a71-b522-9fdc3c6ab880 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 52865 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1461944482275.json --no-banner
+
+[DEBUG]  Detecting modules in /Users/school/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/school/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building using iOS SDK: 9.3
+[INFO]   Building for iOS device: 709a1e804c94e816083c5097792cc5959945823e
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphoneos
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   iOS Development Certificate: lovetoskate247@yahoo.com (3H8HJN9K6W)
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Using default keychain
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Forcing clean build: /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build-manifest.json does not exist
+[INFO]   Initializing the build directory
+[DEBUG]  Recreating /Users/school/Desktop/AVF/mapAppWeek4/build/iphone
+[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-29e113b5f72ce4284d4b6be23a36b6435cad411a.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"hunterdylan882@gmail.com","session":"2cd69f0a66d21b3104ad8aeeb9a6b5fccd2d7952 364Y8WMmrgsoXrm3oyal0iS62qkwm7eRtGH8vx4IcEG5vsCRb9MpBuEp8v6oixZ23akjbgSa3OLCkcfjwzRczYIFE4PL1lApv93SwpDUybAdKE6o7ma3jl8/hzlEGmyXo05NbWMi/WmkiJ1ykWvs/+VFH47ggcdRucUuRMIA6bVY6/5ilU9OAEt7YfDizTKzGpM0C5TdMxV6PK+YUeaWepW/c/Y0E9D7ILUN9Xl872dabmsUk0X4X6aduDw5Ha6FojZoyjMxTXDXESb9c8Y35ZzQogrX0KMGwtM3QmgmWgsSG4u0k1bWYtxQoE+TgLOjwGKwowc30IqxtmN76fEuYzFvZjkqvd68T78MEuOZ2yEAoFeOUGlZZW7X7H3LYOVtdpjFZepFsLoMez2nG5onx8/TPdVXBOuRjTwLozVilA0V6lJy49l+Uno0aWsZddGu2gfJjTwtuEgsxDzyB4Nl5qjmJHJCSm5Rwf0t456+PJttwN8yrL6obZwDNoSDRPb1lmvyNwGFhYEOOHoeaSzJNcFS26eZTCgtBPv5pUxxEjMIJ4NLYD6u1ZHnqmHQpVccHzHUtgqtsPr4v7sMuROJhQkjJHKzZpAIfKwZUD4/4YLShlul4umt0fdluHUscqeXlKk+m6VVv9QrTh8GqkP7ec+qyWI7shyMmP6NS8ByC8VXvH5vQZSw8NiTxwNoXIaDe6U3HP4aIc+hOHEE5CoDyB4hxQqNyT3MZ6WUeOpE2yW6rF383HxOlB9Mk4RzcEpwJ6CAtZpfoDbBNvPu9m4s2hy9S9YZDcbzOOxRQxFfSBk=","ipaddress":"10.0.0.210","fingerprint":"9cac56b8b969e4c735c38c0f0a4fadb71d7be8a9","fingerprint_description":"Mac OSX Serial Number: C02PV3GFG8WL","guid":"fb37ea74-a9f0-4659-9555-b9b59bc4dc17","appid":"com.fullsail.mapAppWeek4","name":"mapAppWeek4","org_id":100083291,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.fullsail.mapAppWeek4</id>\n  <name>mapAppWeek4</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url/>\n  <description/>\n  <copyright>2016 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>fb37ea74-a9f0-4659-9555-b9b59bc4dc17</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <array>\n          <string>allow location cords</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <android \n      xmlns:android=\"http://schemas.android.com/apk/res/android\">\n      <manifest>\n        <!-- Allows the API to download data from Google Map servers -->\n        <uses-permission android:name=\"android.permission.INTERNET\"/>\n        <!-- Allows the API to cache data -->\n        <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>\n        <!-- Use GPS for device location -->\n        <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>\n        <!-- Use Wi-Fi or mobile connection for device location -->\n        <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>\n        <!-- Allows the API to access Google web-based services -->\n        <uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\"/>\n        <!-- Specify OpenGL ES 2.0 as a requirement -->\n        <uses-feature android:glEsVersion=\"0x00020000\" android:required=\"true\"/>\n        <uses-permission android:name=\"com.test.v2.permission.MAPS_RECEIVE\"/>\n        <permission android:name=\"com.test.v2.permission.MAPS_RECEIVE\" android:protectionLevel=\"signature\"/>\n        <application>\n          <!-- Replace \"AIzaSyAK3t8b0F9nooq0_OUpgOrwIcaFc_5UFUc\" with the Google API key you obtained -->\n          <meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyAK3t8b0F9nooq0_OUpgOrwIcaFc_5UFUc\"/>\n        </application>\n      </manifest>\n    </android>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <modules>\n      <module platform=\"ipad\">ti.map</module>\n    </modules>\n    <modules>\n      <module platform=\"android\">ti.map</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">572290627196087846ecf7f0</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100083291</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35</property>\n  </ti:app>","modules":[]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"ef0K7eZS7WDyPt+xl+uDXQ==","pepper":"ILheHOYdFIuhe5CiAqkPIg==","hmacKey":"Fzp6GWCaDjGGQ8J6LdB5kQ==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"572380a8aaa94409140678c6","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Info.plist
+[INFO]   Creating main.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/project.xcconfig
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libTiCore.a => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/lib/libTiCore.a
+[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libtiverify.a => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/lib/libtiverify.a
+[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libti_ios_debugger.a => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/lib/libti_ios_debugger.a
+[DEBUG]  Symlinking /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/libti_ios_profiler.a => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFItemView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFItemView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFOpenFlowConstants.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFOpenFlowView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFOpenFlowView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFUIImageReflection.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/AFUIImageReflection.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/UIImageExtras.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AFOpenFlow/UIImageExtras.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APIModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APIModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSAnalytics/APSAnalytics.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSAnalytics/libAPSAnalytics.a
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSHTTPClient/APSHTTPRequest.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/APSHTTPClient/libAPSHTTPClient.a
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AccelerometerModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AccelerometerModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AnalyticsModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AnalyticsModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AppModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AppModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationDefaults.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationDefaults.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationMods.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationMods.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationRouting.h
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AsyncSocket.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AsyncSocket.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AsyncUdpSocket.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AsyncUdpSocket.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AudioStreamer/AudioStreamer.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AudioStreamer/AudioStreamer.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Base64Transcoder.c
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Base64Transcoder.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Bridge.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Bridge.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/CalendarModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/CalendarModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/CodecModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/CodecModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ContactsModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ContactsModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/DatabaseModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/DatabaseModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/FilesystemModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/FilesystemModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/GDataXMLNode.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/GDataXMLNode.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/GeolocationModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/GeolocationModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/GestureModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/GestureModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ImageLoader.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ImageLoader.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollBridge.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollBridge.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollCallback.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollCallback.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollContext.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollContext.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollCoverage.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollCoverage.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollMethod.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollMethod.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollMethodDelegate.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollMethodDelegate.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollObject.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollObject.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollPropertyDelegate.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollPropertyDelegate.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollTimer.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/KrollTimer.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LauncherButton.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LauncherButton.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LauncherItem.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LauncherItem.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LauncherView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LauncherView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Layout/TiLayoutDimension.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Layout/TiLayoutDimension.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Layout/TiLayoutView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Layout/TiLayoutView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LayoutConstraint.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LayoutConstraint.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ListenerEntry.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ListenerEntry.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LocaleModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/LocaleModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitCornersView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitCornersView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitDividerView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitDividerView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitViewController.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MGSplitView/MGSplitViewController.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MediaModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/MediaModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Mimetypes.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Mimetypes.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/NSData+Additions.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/NSData+Additions.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/NetworkModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/NetworkModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/OperationQueue.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/OperationQueue.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlatformModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlatformModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLDatabase.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLPreparedStatement.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLResultSet.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Reachability.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Reachability.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/SBJSON.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/SBJSON.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/SCListener.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/SCListener.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/StreamModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/StreamModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TIDOMCharacterDataProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TIDOMCharacterDataProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TIDOMDOMImplementationProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TIDOMDOMImplementationProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TIDOMDocumentTypeProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TIDOMDocumentTypeProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ThirdpartyNS.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Ti2DMatrix.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Ti2DMatrix.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Ti3DMatrix.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Ti3DMatrix.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAction.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAction.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAnchorAttachBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAnchorAttachBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAnimation.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAnimation.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAnimatorProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAnimatorProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiApp.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiApp.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppPropertiesProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppPropertiesProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSLocalNotificationProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSLocalNotificationProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSNotificationActionProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSNotificationActionProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSNotificationCategoryProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSNotificationCategoryProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSSearchableIndexProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSSearchableIndexProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSSearchableItemAttributeSetProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSSearchableItemAttributeSetProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSSearchableItemProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSSearchableItemProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSUserActivityProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSUserActivityProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSUserDefaultsProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiAppiOSUserDefaultsProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBase.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBase.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBindingEvent.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBindingEvent.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBindingRunLoop.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBindingRunLoop.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBindingTiValue.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBindingTiValue.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBlob.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBlob.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBuffer.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiBuffer.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiButtonUtil.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiButtonUtil.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarAlert.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarAlert.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarCalendar.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarCalendar.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarEvent.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarEvent.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarRecurrenceRule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarRecurrenceRule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarReminder.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCalendarReminder.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCollisionBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiCollisionBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiColor.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiColor.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiComplexValue.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiComplexValue.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiConsole.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiConsole.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiContactsGroup.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiContactsGroup.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiContactsPerson.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiContactsPerson.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiController.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiControllerProtocols.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMAttrProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMAttrProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMCDATANodeProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMCDATANodeProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMCommentProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMCommentProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMDocFragProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMDocFragProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMDocumentProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMDocumentProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMElementProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMElementProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMEntityProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMEntityProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMEntityRefProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMEntityRefProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNamedNodeMapProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNamedNodeMapProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNodeListProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNodeListProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNodeProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNodeProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNotationProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMNotationProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMPIProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMPIProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMTextNodeProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMTextNodeProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMValidator.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDOMValidator.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDataStream.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDataStream.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDatabaseProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDatabaseProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDatabaseResultSetProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDatabaseResultSetProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDebugger.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDimension.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDimension.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDynamicItemBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiDynamicItemBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiErrorController.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiErrorController.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiEvaluator.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiExceptionHandler.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiExceptionHandler.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFile.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFile.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFilesystemBlobProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFilesystemBlobProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFilesystemFileProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFilesystemFileProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFilesystemFileStreamProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiFilesystemFileStreamProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiGradient.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiGradient.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiGravityBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiGravityBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiHost.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiHost.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiLayoutQueue.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiLayoutQueue.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiLocale.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiLocale.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaAudioPlayerProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaAudioPlayerProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaAudioRecorderProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaAudioRecorderProxy.mm
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaAudioSession.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaAudioSession.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaItem.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaItem.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaMusicPlayer.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaMusicPlayer.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaSoundProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaSoundProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaVideoPlayer.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaVideoPlayer.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaVideoPlayerProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiMediaVideoPlayerProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkBonjourBrowserProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkBonjourBrowserProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkBonjourServiceProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkBonjourServiceProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkCookieProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkCookieProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkHTTPClientProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkHTTPClientProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkSocketProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkSocketProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkSocketTCPProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkSocketTCPProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkTCPSocketProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiNetworkTCPSocketProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPlatformDisplayCaps.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPlatformDisplayCaps.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPoint.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPoint.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPreviewingDelegate.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPreviewingDelegate.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiProfiler/TiProfiler.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPublicAPI.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPublicAPI.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPushBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiPushBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiRect.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiRect.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiRootViewController.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiRootViewController.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiSelectedCellbackgroundView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiSelectedCellbackgroundView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiSnapBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiSnapBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiStreamProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiStreamProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiStylesheet.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiStylesheet.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiTab.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiTabGroup.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiThreading.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiThreading.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiToJS.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiToolbar.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiToolbarButton.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIActivityIndicator.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIActivityIndicator.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIActivityIndicatorProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIActivityIndicatorProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIActivityIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIActivityIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIAlertDialogProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIAlertDialogProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIAttributedStringProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIAttributedStringProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButton.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButton.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButtonBar.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButtonBar.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButtonBarProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButtonBarProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButtonProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIButtonProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUICanvasView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUICanvasView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUICanvasViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUICanvasViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIClipboardProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIClipboardProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardItem.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardItem.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardItemProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardItemProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIDashboardViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIEmailDialogProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIEmailDialogProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIImageView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIImageView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIImageViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIImageViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUILabel.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUILabel.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUILabelProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUILabelProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListItem.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListItem.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListItemProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListItemProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListSectionProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListSectionProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIListViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIMaskedImage.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIMaskedImage.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIMaskedImageProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIMaskedImageProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUINavBarButton.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUINavBarButton.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIOptionDialogProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIOptionDialogProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPicker.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPicker.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPickerColumnProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPickerColumnProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPickerProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPickerProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPickerRowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIPickerRowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIProgressBar.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIProgressBar.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIProgressBarProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIProgressBarProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIRefreshControlProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIRefreshControlProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollableView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollableView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollableViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIScrollableViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISearchBar.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISearchBar.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISearchBarProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISearchBarProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISlider.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISlider.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISliderProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISliderProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISwitch.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISwitch.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISwitchProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUISwitchProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITabGroup.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITabGroup.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITabGroupProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITabGroupProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITabProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITabProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewAction.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewAction.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewRowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewRowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewSectionProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITableViewSectionProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextArea.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextArea.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextAreaProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextAreaProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextField.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextField.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextFieldProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextFieldProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextWidget.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextWidget.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextWidgetProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUITextWidgetProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWebView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWebView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWebViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWebViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWindow.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWindow.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWindowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIWindowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSAdView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSAdView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSAdViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSAdViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSCoverFlowView.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSCoverFlowView.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSDocumentViewerProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSDocumentViewerProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSNavWindow.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSNavWindow.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSNavWindowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSNavWindowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSPreviewActionProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSPreviewActionProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSPreviewContextProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSPreviewContextProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSSplitWindow.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSSplitWindow.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSSplitWindowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSSplitWindowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSTabbedBarProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSTabbedBarProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSToolbar.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSToolbar.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSToolbarProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSToolbarProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadPopoverProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadPopoverProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadSplitWindow.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadSplitWindow.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadSplitWindowButtonProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadSplitWindowButtonProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadSplitWindowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPadSplitWindowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneActivityIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneActivityIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneAlertDialogStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneAlertDialogStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneAnimationStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneAnimationStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneProgressBarStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneProgressBarStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneRowAnimationStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneRowAnimationStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneScrollIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneScrollIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneStatusBarProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneStatusBarProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneSystemButtonProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneSystemButtonProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneSystemButtonStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneSystemButtonStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneSystemIconProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneSystemIconProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewCellSelectionStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewCellSelectionStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewScrollPositionProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewScrollPositionProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewSeparatorStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewSeparatorStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewStyleProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUIiPhoneTableViewStyleProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUtils.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiUtils.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewAttachBehavior.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewAttachBehavior.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewController.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewController.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewTemplate.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiViewTemplate.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiWindowProxy.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TiWindowProxy.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TopTiModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/TopTiModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIImage+Alpha.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIImage+Alpha.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIImage+Resize.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIImage+Resize.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIImage+RoundedCorner.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIImage+RoundedCorner.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UIModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UtilsModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/UtilsModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/WatchSessionModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/WatchSessionModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/WebFont.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/WebFont.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Webcolor.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/Webcolor.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/XHRBridge.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/XHRBridge.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/XMLModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/XMLModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/YahooModule.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/YahooModule.m
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/Ti.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiBase.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiContext.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiContextRef.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiCore.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiExport.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiManagedValue.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiObjectRef.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiStringRef.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiStringRefCF.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiValue.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiValueRef.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/TiVirtualMachine.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/headers/JavaScriptCore/WebKitAvailability.h
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4_Prefix.pch
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4.xcodeproj/xcshareddata/xcschemes/mapAppWeek4.xcscheme
+[INFO]   Cleaning Xcode derived data
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean
+[TRACE]  2016-04-29 11:41:29.853 xcodebuild[89522:12188248] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+[TRACE]  === CLEAN TARGET mapAppWeek4 OF PROJECT mapAppWeek4 WITH THE DEFAULT CONFIGURATION (Release) ===
+[TRACE]  Check dependencies

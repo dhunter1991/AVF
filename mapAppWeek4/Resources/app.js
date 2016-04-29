@@ -1,101 +1,77 @@
-// this sets the background color of the master UIView (when there are no windows/tab groups on it)
-Titanium.UI.setBackgroundColor('#000');
-
-// create tab group
-var tabGroup = Titanium.UI.createTabGroup();
-
-
-//
-// create base UI tab and root window
-//
-var win1 = Titanium.UI.createWindow({  
-    title:'Tab 1',
-    backgroundColor:'#fff'
+// starts the main login in window
+var win = Ti.UI.createWindow({
+	title: "Location Map",
+	backgroundColor: "#e8e5eb"
 });
-var tab1 = Titanium.UI.createTab({  
-    icon:'KS_nav_views.png',
-    title:'Tab 1',
-    window:win1
+var image = Ti.UI.createImageView({
+	image: "images/bg.jpg",
+	width: "100%",
+	height: "100%"
+	});
+var logout = Ti.UI.createButton({
+	title: "logout"
 });
-
-var label1 = Titanium.UI.createLabel({
-	color:'#999',
-	text:'I am Window 1',
-	font:{fontSize:20,fontFamily:'Helvetica Neue'},
-	textAlign:'center',
-	width:'auto'
+// opens navigation window
+if(Ti.platform.osname === "android"){
+}else{
+	var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: win,
+	rightNavButtons: logout
 });
-
-win1.add(label1);
-
-//
-// create controls tab and root window
-//
-var win2 = Titanium.UI.createWindow({  
-    title:'Tab 2',
-    backgroundColor:'#fff'
+};
+// username text feild 
+var user = Ti.UI.createTextField({
+	hintText: " dhunter1@fullsail.edu",
+	top: 200,
+	borderColor: "black",
+	width: 250,
+	height: 40,
+	backgroundColor: "#fff"
 });
-var tab2 = Titanium.UI.createTab({  
-    icon:'KS_nav_ui.png',
-    title:'Tab 2',
-    window:win2
+// password text feild 
+var password = Ti.UI.createTextField({
+	hintText: " password",
+	top: 250,
+	borderColor: "black",
+	width: 250,
+	height: 40,
+	passwordMask: true,
+	backgroundColor: "#fff"
 });
-
-var label2 = Titanium.UI.createLabel({
-	color:'#999',
-	text:'I am Window 2',
-	font:{fontSize:20,fontFamily:'Helvetica Neue'},
-	textAlign:'center',
-	width:'auto'
+// register button
+var create = Ti.UI.createButton({
+	title: "not a member? Register",
+	width: 200,
+	height: 50,
+	color: "#fff",
+	top: password.top + 90,
 });
-
-win2.add(label2);
-
-
-
-//
-//  add tabs
-//
-tabGroup.addTab(tab1);  
-tabGroup.addTab(tab2);  
-
-
-// open tab group
-tabGroup.open();
-
-
-// added during app creation. this will automatically login to
-// ACS for your application and then fire an event (see below)
-// when connected or errored. if you do not use ACS in your
-// application as a client, you should remove this block
-(function(){
-var ACS = require('ti.cloud'),
-    env = Ti.App.deployType.toLowerCase() === 'production' ? 'production' : 'development',
-    username = Ti.App.Properties.getString('acs-username-'+env),
-    password = Ti.App.Properties.getString('acs-password-'+env);
-
-// if not configured, just return
-if (!env || !username || !password) { return; }
-/**
- * Appcelerator Cloud (ACS) Admin User Login Logic
- *
- * fires login.success with the user as argument on success
- * fires login.failed with the result as argument on error
- */
-ACS.Users.login({
-	login:username,
-	password:password,
-}, function(result){
-	if (env==='development') {
-		Ti.API.info('ACS Login Results for environment `'+env+'`:');
-		Ti.API.info(result);
-	}
-	if (result && result.success && result.users && result.users.length){
-		Ti.App.fireEvent('login.success',result.users[0],env);
-	} else {
-		Ti.App.fireEvent('login.failed',result,env);
-	}
+// log in button
+var signOn = Ti.UI.createButton({
+	title: "log in",
+	width: 250,
+	height: 30,
+	borderRadius: 5,
+	backgroundColor: "green",
+	top: password.top + 75
 });
-
-})();
-
+// opens navigation window and main window
+if(Ti.osname === "iOS"){
+win.add(image);
+win.add(user);
+win.add(password);
+win.add(create);
+win.add(signOn);
+navWindow.open();
+}else{
+win.add(image);
+win.add(user);
+win.add(password);
+win.add(create);
+win.add(signOn);
+win.open();
+};
+var loadfile1 = reuquire("geo");
+var loadfile2 = require("signUp");
+var start = require("geo");
+start.geoFun();
