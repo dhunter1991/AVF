@@ -691,3 +691,150 @@ Command
 [TRACE]  2016-04-29 11:41:29.853 xcodebuild[89522:12188248] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
 [TRACE]  === CLEAN TARGET mapAppWeek4 OF PROJECT mapAppWeek4 WITH THE DEFAULT CONFIGURATION (Release) ===
 [TRACE]  Check dependencies
+[TRACE]  [BWARN]The provisioning profile "iOS Team Provisioning Profile: com.fullsail.mapAppWeek4" is expiring soon
+[TRACE]  Create product structure
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Release-iphoneos/mapAppWeek4.app
+[TRACE]  Clean.Remove clean build/Release-iphoneos/mapAppWeek4.app
+[TRACE]  builtin-rm -rf /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Release-iphoneos/mapAppWeek4.app
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-gwfiitprwnkbehcroxokzctldziy/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-gwfiitprwnkbehcroxokzctldziy/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-gsyebtmnwsjwzcgudrklrgnqfhya/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-gsyebtmnwsjwzcgudrklrgnqfhya/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-bpyddmlqbjewotdtavitaxejchdq/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-bpyddmlqbjewotdtavitaxejchdq/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-fafyhiupwspimbgdxbpqbyiwvdhv/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-fafyhiupwspimbgdxbpqbyiwvdhv/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-caxjgsjpfavuxcbxgvgpsiukbnxp/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-caxjgsjpfavuxcbxgvgpsiukbnxp/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-bktfesfictaufpehspyhfalufuuw/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-bktfesfictaufpehspyhfalufuuw/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-aqacnszahfsaxdejgxpmdfxezhfp/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-aqacnszahfsaxdejgxpmdfxezhfp/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/mapAppWeek4.build/Release-iphoneos/mapAppWeek4.build
+[TRACE]  builtin-rm -rf /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/mapAppWeek4.build/Release-iphoneos/mapAppWeek4.build
+[TRACE]  Clean.Remove clean /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-fkrdtrorhimpvbecqiyxdwmfkzzr/mapAppWeek4_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/C/com.apple.DeveloperTools/7.3-7D175/Xcode/SharedPrecompiledHeaders/mapAppWeek4_Prefix-fkrdtrorhimpvbecqiyxdwmfkzzr/mapAppWeek4_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/Release-iphoneos/mapAppWeek4.app.dSYM
+[TRACE]  builtin-rm -rf /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Release-iphoneos/mapAppWeek4.app.dSYM
+[TRACE]  ** CLEAN SUCCEEDED **
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/debugger.plist
+[DEBUG]  Skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[DEBUG]  Found /Users/school/Desktop/AVF/mapAppWeek4/DefaultIcon.png (1024x1024)
+[INFO]   Missing 10 app icons, generating missing icons
+[INFO]     Resources/iphone/appicon-Small.png - Used for iPad - size: 29x29
+[INFO]     Resources/iphone/appicon-Small@2x.png - Used for iPhone, iPad - size: 58x58
+[INFO]     Resources/iphone/appicon-Small@3x.png - Used for iPhone - size: 87x87
+[INFO]     Resources/iphone/appicon-Small-40.png - Used for iPad - size: 40x40
+[INFO]     Resources/iphone/appicon-Small-40@2x.png - Used for iPhone, iPad - size: 80x80
+[INFO]     Resources/iphone/appicon-Small-40@3x.png - Used for iPhone - size: 120x120
+[INFO]     Resources/iphone/appicon-60@2x.png - Used for iPhone - size: 120x120
+[INFO]     Resources/iphone/appicon-60@3x.png - Used for iPhone - size: 180x180
+[INFO]     Resources/iphone/appicon-76.png - Used for iPad - size: 76x76
+[INFO]     Resources/iphone/appicon-76@2x.png - Used for iPad - size: 152x152
+[TRACE]  Resizing images: java -jar "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/node-appc/tools/resizer/resizer.jar" "/Users/school/Desktop/AVF/mapAppWeek4/DefaultIcon.png" "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png" 29 29 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png" 58 58 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png" 87 87 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png" 40 40 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png" 80 80 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png" 120 120 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png" 120 120 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png" 180 180 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png" 76 76 "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png" 152 152
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/KS_nav_ui.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_ui.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/KS_nav_views.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_views.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/images/bg.jpg => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/images/bg.jpg
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-568h@2x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-667h@2x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-Landscape-736h@3x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-Landscape.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-Landscape@2x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-Portrait-736h@3x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-Portrait.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default-Portrait@2x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[DEBUG]  Copying /Users/school/Desktop/AVF/mapAppWeek4/Resources/iphone/Default@2x.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/mapAppWeek4/Resources/app.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/app_js
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/mapAppWeek4/Resources/db.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/db_js
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/mapAppWeek4/Resources/geo.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/geo_js
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/mapAppWeek4/Resources/modulemap.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/modulemap_js
+[DEBUG]  Copying and minifying /Users/school/Desktop/AVF/mapAppWeek4/Resources/signup.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/signup_js
+[INFO]   Writing app properties
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/_app_props__json
+[INFO]   Encrypting JavaScript files
+[DEBUG]  Preparing app_js
+[DEBUG]  Preparing db_js
+[DEBUG]  Preparing geo_js
+[DEBUG]  Preparing modulemap_js
+[DEBUG]  Preparing signup_js
+[DEBUG]  Preparing _app_props__json
+[DEBUG]  Running /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/titanium_prep "com.fullsail.mapAppWeek4" "/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets"
+[DEBUG]  Writing application routing source file: /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[DEBUG]  Copying /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/modules/ui/images/badge.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/badge.png
+[DEBUG]  Copying /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/modules/ui/images/closeButton.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/closeButton.png
+[DEBUG]  Copying /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone/modules/ui/images/photoDefault.png => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/photoDefault.png
+[DEBUG]  Writing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Optimizing .plist and .png files
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_ui.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_views.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/badge.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/closeButton.png
+[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/photoDefault.png
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target mapAppWeek4 -configuration Debug -scheme mapAppWeek4 -derivedDataPath /Users/school/Desktop/AVF/mapAppWeek4/build/iphone OBJROOT=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products
+[TRACE]  
+[TRACE]  === BUILD TARGET mapAppWeek4 OF PROJECT mapAppWeek4 WITH CONFIGURATION Debug ===
+[TRACE]  Check dependencies
+[TRACE]  The provisioning profile "iOS Team Provisioning Profile: com.fullsail.mapAppWeek4" is expiring soon
+[TRACE]  Write auxiliary files
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-hepoliuokcfqiyevvuibgjkgztzq
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-hepoliuokcfqiyevvuibgjkgztzq/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-dgllhqosefhwuufygkxfeqswqhil
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-dgllhqosefhwuufygkxfeqswqhil/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-fwwetkwroodlsngajamtozgchfqx
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-fwwetkwroodlsngajamtozgchfqx/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-dvjceanwnqmtvkaaugvwsibbomrj
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-dvjceanwnqmtvkaaugvwsibbomrj/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-gglbyovuprlkrxgogsefgilwrtxk
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-gglbyovuprlkrxgogsefgilwrtxk/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-cgruwowiynbjgkaklpyjkxfqgjzx
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-cgruwowiynbjgkaklpyjkxfqgjzx/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-own-target-headers.hmap
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-djzitftuxcgznzeebsluwxuivncx
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-djzitftuxcgznzeebsluwxuivncx/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-project-headers.hmap
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-generated-files.hmap
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4.hmap
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/Objects-normal/armv7
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/Objects-normal/armv7/mapAppWeek4.LinkFileList
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-all-target-headers.hmap
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-all-non-framework-target-headers.hmap
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/Objects-normal/arm64
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/Objects-normal/arm64/mapAppWeek4.LinkFileList
+[TRACE]  /bin/mkdir -p /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-acfxuibarcfxttcfqdybmmdmmhqv
+[TRACE]  write-file /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-acfxuibarcfxttcfqdybmmdmmhqv/mapAppWeek4_Prefix.pch.pch.hash-criteria
+[TRACE]  
+[TRACE]  ProcessPCH build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-acfxuibarcfxttcfqdybmmdmmhqv/mapAppWeek4_Prefix.pch.pch mapAppWeek4_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/school/Desktop/AVF/mapAppWeek4/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-generated-files.hmap -I/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-own-target-headers.hmap -I/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-all-target-headers.hmap -iquote /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/mapAppWeek4-project-headers.hmap -I/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/libxml2 -Iheaders -I/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/DerivedSources/armv7 -I/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/mapAppWeek4.build/Debug-iphoneos/mapAppWeek4.build/DerivedSources -F/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos -DDEBUG -MD -MT dependencies -MF /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-acfxuibarcfxttcfqdybmmdmmhqv/mapAppWeek4_Prefix.pch.d -c /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4_Prefix.pch -o /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-acfxuibarcfxttcfqdybmmdmmhqv/mapAppWeek4_Prefix.pch.pch --serialize-diagnostics /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders/mapAppWeek4_Prefix-acfxuibarcfxttcfqdybmmdmmhqv/mapAppWeek4_Prefix.pch.dia
