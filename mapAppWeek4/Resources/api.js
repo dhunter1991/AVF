@@ -13,7 +13,7 @@ var data = function(lat, lng){
 	 			
 	 		};
 	 	var mapData = require("modulemap");
-	 	mapData = run(mapData);
+	 	mapData = run(dataInfo);
 	 	},
 	 	onerror: function(e){
 			alert("error has occured please check connection");
