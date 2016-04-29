@@ -1,5 +1,5 @@
 
-4/29/2016, 2:53:25 PM
+4/29/2016, 3:00:32 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/mapAppWeek4 --target simulator --ios-version 9.3 --device-family universal --deploy-type development --sim-type ipad --sim-version 9.3 --device-id 28AD5081-EF91-46D1-8496-CDBC0DB38268 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 52865 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1461956002166.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/mapAppWeek4 --target simulator --ios-version 9.3 --device-family universal --deploy-type development --sim-type ipad --sim-version 9.3 --device-id 28AD5081-EF91-46D1-8496-CDBC0DB38268 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 52865 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1461956429461.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 28AD5081-EF91-46D1-8496-CDBC0DB38268
 [TRACE]  [ioslib] Found iOS Simulator UDID 28AD5081-EF91-46D1-8496-CDBC0DB38268
@@ -64,7 +64,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-d72d204b755e850fb2b04bb3a1e560e1dc9c4d6e.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 934.477 sec ago
+[TRACE]  optimizing build, last build was 1361.807 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 1 native module library
@@ -151,13 +151,13 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 221ms
+[INFO]   Finished building the application in 1s 500ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPad 2
 [TRACE]  [ioslib]   UDID    = 28AD5081-EF91-46D1-8496-CDBC0DB38268
 [TRACE]  [ioslib]   iOS     = 9.3
 [TRACE]  [ioslib] Autoselected Xcode: 7.3
-[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/8571E536-63ED-480B-973A-50E23B1EA9D1/Documents/fb37ea74-a9f0-4659-9555-b9b59bc4dc17.log
+[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/7E2B2F1C-ACF0-431A-8348-0BA0280DC281/Documents/fb37ea74-a9f0-4659-9555-b9b59bc4dc17.log
 [TRACE]  [ioslib] iPad 2 Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPad 2 Simulator system log: /Users/school/Library/Logs/CoreSimulator/28AD5081-EF91-46D1-8496-CDBC0DB38268/system.log
 [TRACE]  [ioslib] Running: osascript "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
@@ -166,5 +166,5 @@ Command
 [TRACE]  [ioslib] App installed
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 28AD5081-EF91-46D1-8496-CDBC0DB38268 com.fullsail.mapAppWeek4
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/F2114BEF-B5A2-4A03-8E4D-13E2D946E9A5/Documents/fb37ea74-a9f0-4659-9555-b9b59bc4dc17.log
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/2F40DD72-DCEC-4A5E-90AB-D2976DA04E06/Documents/fb37ea74-a9f0-4659-9555-b9b59bc4dc17.log
 [TRACE]  [mapAppWeek4] assertion failed: 15E65 13E230: libxpc.dylib + 71506 [6F98A9DA-B46E-3A2B-88D4-92F1EC77477F]: 0x7d

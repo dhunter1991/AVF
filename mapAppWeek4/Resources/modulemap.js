@@ -4,6 +4,13 @@ var MapModule = require('ti.map');
 var win2 = Ti.UI.createWindow({
 	backgroundColor: "#000"
 });
+var annotations = MapModule.createAnnotation({
+	latitude: dataInfo.lat,
+	longitude: dataInfo.lng,
+	title: dataInfo.name,
+	subtitle: dataInfo.location,
+	pincolor: MapModule.ANNOTATION_PURPLE,
+});
 var mapview = MapModule.createView({
 	top: 0,
 	height: "100%",
@@ -15,12 +22,7 @@ var mapview = MapModule.createView({
     animate:true,
     regionFit:true,
     userLocation:true,
-});
-var annotations = MapModule.createAnnotation({
-	latitude: dataInfo.lat,
-	longitude: dataInfo.lng,
-	title: dataInfo.name,
-	subtitle: dataInfo.location
+    annotations: [annotations]
 });
 win2.add(mapview);
 navWindow.openWindow(win2);
