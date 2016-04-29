@@ -74,7 +74,7 @@ var signUp = function (){
 			fullScreen: false,
 		});
 		var dialog = Ti.UI.createAlertDialog({
-			message: "your account has been created!\n you can now sign in to view news updates.\n username: "+ newUser.value,
+			message: "your account has been created!\n you can now sign in to view map updates.\n username: "+ newUser.value,
 			ok: "confirm",
 			title: "account created"
 		});
