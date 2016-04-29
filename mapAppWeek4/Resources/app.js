@@ -12,7 +12,7 @@ var logout = Ti.UI.createButton({
 	title: "logout"
 });
 // opens navigation window
-if(Ti.platform.osname === "android"){
+if(Ti.Platform.osname === "android"){
 }else{
 	var navWindow = Ti.UI.iOS.createNavigationWindow({
 	window: win,
@@ -56,22 +56,21 @@ var signOn = Ti.UI.createButton({
 	top: password.top + 75
 });
 // opens navigation window and main window
-if(Ti.osname === "iOS"){
-win.add(image);
-win.add(user);
-win.add(password);
-win.add(create);
-win.add(signOn);
-navWindow.open();
-}else{
+if(Ti.Platform.osname === "android"){
 win.add(image);
 win.add(user);
 win.add(password);
 win.add(create);
 win.add(signOn);
 win.open();
+}else{
+win.add(image);
+win.add(user);
+win.add(password);
+win.add(create);
+win.add(signOn);
+navWindow.open();
 };
-var loadfile1 = reuquire("geo");
-var loadfile2 = require("signUp");
+var loadfile2 = require("signup");
 var start = require("geo");
 start.geoFun();

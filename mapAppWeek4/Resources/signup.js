@@ -53,18 +53,17 @@ var signUp = function (){
 		borderRadius: 5,
 		BackgroundColor: "green"
 	});
-	if(Ti.osname === "iOS"){
-	signUpWin.add(newUser, newPassword, confirm, cancel, confirmButton, userExample2);
-	navWindow.openWindow(signUpWin);
-	}else{
+	if(Ti.Platform.osname === "android"){
 		signUpWin.add(image);
 		signUpWin.add(newUser);
 		signUpWin.add(newPassword);
 		signUpWin.add(confirm);
 		signUpWin.add(cancel);
 		signUpWin.add(confirmButton);
-		signUpWin.add(userExample2);
 		signUpWin.open();
+	}else{
+	signUpWin.add(image, newUser, newPassword, confirm, cancel, confirmButton);
+	navWindow.openWindow(signUpWin);
 	};
 	exports.signUp = signUp;
 // this function runs a control to inform user that account has been created and sends them back to the log in page

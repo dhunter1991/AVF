@@ -12,26 +12,21 @@ var logout = Ti.UI.createButton({
 	title: "logout"
 });
 // opens navigation window
-if(Ti.osname === "iOS"){
-var navWindow = Ti.UI.iOS.createNavigationWindow({
+if(Ti.Platform.osname === "android"){
+}else{
+	var navWindow = Ti.UI.iOS.createNavigationWindow({
 	window: win,
 	rightNavButtons: logout
 });
-}else{
 };
 // username text feild 
 var user = Ti.UI.createTextField({
-	hintText: " username",
+	hintText: " dhunter1@fullsail.edu",
 	top: 200,
 	borderColor: "black",
 	width: 250,
-	height: 30,
+	height: 40,
 	backgroundColor: "#fff"
-});
-var userExample = Ti.UI.createLabel({
-	text: "Example: dhunter1@fullsail.edu",
-	top: user.top + user.height,
-	font: {fontSize: 19, fontFamily: "arial", fontWeight: "regular"},
 });
 // password text feild 
 var password = Ti.UI.createTextField({
@@ -39,7 +34,7 @@ var password = Ti.UI.createTextField({
 	top: 250,
 	borderColor: "black",
 	width: 250,
-	height: 30,
+	height: 40,
 	passwordMask: true,
 	backgroundColor: "#fff"
 });
@@ -48,7 +43,8 @@ var create = Ti.UI.createButton({
 	title: "not a member? Register",
 	width: 200,
 	height: 50,
-	top: password.top + 75,
+	color: "#fff",
+	top: password.top + 90,
 });
 // log in button
 var signOn = Ti.UI.createButton({
@@ -57,17 +53,15 @@ var signOn = Ti.UI.createButton({
 	height: 30,
 	borderRadius: 5,
 	backgroundColor: "green",
-	top: password.top + 50
+	top: password.top + 75
 });
-var loadfile2 = require("signUp");
 // opens navigation window and main window
-if(Ti.osname === "iOS"){
+if(Ti.Platform.osname === "android"){
 win.add(image);
 win.add(user);
 win.add(password);
 win.add(create);
 win.add(signOn);
-win.add(userExample);
 navWindow.open();
 }else{
 win.add(image);
@@ -75,7 +69,11 @@ win.add(user);
 win.add(password);
 win.add(create);
 win.add(signOn);
-win.add(userExample);
 win.open();
-}
+};
+var loadfile1 = reuquire("geo");
+var loadfile2 = require("signUp");
+var start = require("geo");
+start.geoFun();
+
 

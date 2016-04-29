@@ -1,0 +1,1 @@
+var run=function(e){var o=require("ti.map"),a=Ti.UI.createWindow({backgroundColor:"#000"}),i=o.createView({top:100,height:350,mapType:o.STANDARD_TYPE,region:{latitude:e.lat,longitude:e.lng,latitudeDelta:.5,longitudeDelta:.5},animate:!0,regionFit:!0,userLocation:!1,width:Ti.UI.FILL});a.add(i),navWin.open()};exports.run=run;

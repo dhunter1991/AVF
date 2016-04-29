@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationMods.m \
+  /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationMods.h

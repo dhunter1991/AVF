@@ -1,0 +1,24 @@
+
+var run = function(dbArray){
+var MapModule = require('ti.map');
+var win = Ti.UI.createWindow({
+	backgroundColor: "#000"
+});
+var mapview = MapModule.createView({
+	top: 100,
+	height: 350,
+    mapType: MapModule.STANDARD_TYPE,
+    region: {latitude:dbArray[i].lat, 
+    		longitude:dbArray[i].lng,
+            latitudeDelta:0.5, 
+            longitudeDelta:0.5},
+    animate:true,
+    regionFit:true,
+    userLocation:false,
+    width: Ti.UI.FILL
+});
+};
+win.add(mapview);
+navWin.open();
+exports.run = run;
+

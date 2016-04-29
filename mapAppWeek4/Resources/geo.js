@@ -13,11 +13,9 @@ var geoFun = function() {
 					console.log(e);
 					var lat = e.coords.latitude;
 					var lng = e.coords.longitude;
-					var uiMod = require("modulemap");
-					uiMod.run(lat, lng);
+					var save = require("db");
+			    	save.save(lat,lng);
 				}
-				var save = require("db");
-				save.save(lat,lng);
 			});
 		} else {
 			alert("No connection loading map from last location");
@@ -27,4 +25,4 @@ var geoFun = function() {
 	}
 };
 exports.geoFun = geoFun;
-signOn.addEventListener("click", geofun);
+signOn.addEventListener("click", geoFun);
