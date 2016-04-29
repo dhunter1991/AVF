@@ -323,6 +323,7 @@
 		DAE541E313577BEC00A65123 /* TiDataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE541E213577BEC00A65123 /* TiDataStream.m */; };
 		EF0ADCFA143F9ABF00977386 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0ADCF9143F9ABF00977386 /* NSData+Additions.m */; };
 		EF0ADD1A143FA0CD00977386 /* GeolocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0ADD19143FA0CD00977386 /* GeolocationModule.m */; };
+		000000000000000000000002 /* libti.map.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* libti.map.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -970,6 +971,7 @@
 		DAE541E213577BEC00A65123 /* TiDataStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiDataStream.m; sourceTree = "<group>"; };
 		EF0ADCF9143F9ABF00977386 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "Classes/NSData+Additions.m"; sourceTree = "<group>"; };
 		EF0ADD19143FA0CD00977386 /* GeolocationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeolocationModule.m; sourceTree = "<group>"; };
+		000000000000000000000001 /* libti.map.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libti.map.a; path = "/Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1/libti.map.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1009,6 +1011,7 @@
 				B606EF60190B42FB00663EFC /* libAPSHTTPClient.a in Frameworks */,
 				242EA11611BD956F0046A0D0 /* ExternalAccessory.framework in Frameworks */,
 				24D5C75911E6364F00F097E2 /* libtiverify.a in Frameworks */,
+				000000000000000000000002 /* libti.map.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2097,6 +2100,7 @@
 				242EA11511BD956F0046A0D0 /* ExternalAccessory.framework */,
 				DADE76D313D65C590079FC75 /* libicucore.dylib */,
 				84BBA58716570F90006B8C22 /* Security.framework */,
+				000000000000000000000001 /* libti.map.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2801,6 +2805,7 @@
 					"\"$(SRCROOT)/lib\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
+					"\"/Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1\"",
 				);
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = "mapAppWeek4";
@@ -2808,10 +2813,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				DEAD_CODE_STRIPPING = YES;
 				SDKROOT = iphoneos;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEPLOYTYPE=test";
-				PROVISIONING_PROFILE = "c8cfc54f-9729-4a71-b522-9fdc3c6ab880";
-				DEPLOYMENT_POSTPROCESSING = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: lovetoskate247@yahoo.com (3H8HJN9K6W)";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEPLOYTYPE=development __LOG__ID__=fb37ea74-a9f0-4659-9555-b9b59bc4dc17 DEBUG=1 TI_VERSION=5.1.0";
 			};
 			name = Debug;
 		};
@@ -2837,16 +2839,14 @@
 					"\"$(SRCROOT)/lib\"",
 					"\"$(SRCROOT)/Classes/APSAnalytics\"",
 					"\"$(SRCROOT)/Classes/APSHTTPClient\"",
+					"\"/Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1\"",
 				);
 				PRODUCT_NAME = "mapAppWeek4";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ONLY_ACTIVE_ARCH = NO;
 				DEAD_CODE_STRIPPING = YES;
 				SDKROOT = iphoneos;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEPLOYTYPE=test";
-				PROVISIONING_PROFILE = "c8cfc54f-9729-4a71-b522-9fdc3c6ab880";
-				DEPLOYMENT_POSTPROCESSING = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: lovetoskate247@yahoo.com (3H8HJN9K6W)";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEPLOYTYPE=development __LOG__ID__=fb37ea74-a9f0-4659-9555-b9b59bc4dc17 DEBUG=1 TI_VERSION=5.1.0";
 			};
 			name = Release;
 		};

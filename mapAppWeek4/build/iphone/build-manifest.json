@@ -3111,9 +3111,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "58afebd7726057051d295cab73293a65",
-			"mtime": "2016-04-29T18:34:21.000Z",
-			"size": 33661
+			"hash": "fb26d965d8eea14f381c9abf3a02d19d",
+			"mtime": "2015-11-19T05:49:10.000Z",
+			"size": 493
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3131,18 +3131,16 @@
 			"size": 3126
 		}
 	},
-	"target": "device",
-	"deployType": "test",
+	"target": "simulator",
+	"deployType": "development",
 	"sdkVersion": "5.1.0.GA",
 	"iosSdkVersion": "9.3",
 	"deviceFamily": "universal",
 	"iosSdkPath": "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
-	"developerName": "lovetoskate247@yahoo.com (3H8HJN9K6W)",
-	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
-	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"modulesHash": "4e16b93101e69e91e961bb5062a733e4",
+	"modulesNativeHash": "2c3de901e338f680624d4d2ea6a74748",
 	"gitHash": "0913213",
-	"ppUuid": "c8cfc54f-9729-4a71-b522-9fdc3c6ab880",
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "mapAppWeek4",
@@ -3154,8 +3152,8 @@
 	"description": "",
 	"copyright": "2016 by school",
 	"guid": "fb37ea74-a9f0-4659-9555-b9b59bc4dc17",
-	"skipJSMinification": false,
-	"encryptJS": true,
+	"skipJSMinification": true,
+	"encryptJS": false,
 	"useJSCore": false,
 	"runOnMainThread": false,
 	"useAutoLayout": false

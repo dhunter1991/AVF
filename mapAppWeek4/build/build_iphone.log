@@ -1,5 +1,5 @@
 
-4/29/2016, 2:35:58 PM
+4/29/2016, 2:49:37 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,8 +21,14 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/mapAppWeek4 --target device --ios-version 9.3 --device-family universal --developer-name lovetoskate247@yahoo.com (3H8HJN9K6W) --device-id 709a1e804c94e816083c5097792cc5959945823e --pp-uuid c8cfc54f-9729-4a71-b522-9fdc3c6ab880 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 52865 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1461954955603.json --no-banner
+  /usr/local/bin/node /Users/school/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/school/Desktop/AVF/mapAppWeek4 --target simulator --ios-version 9.3 --device-family universal --deploy-type development --sim-type ipad --sim-version 9.3 --device-id 28AD5081-EF91-46D1-8496-CDBC0DB38268 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 52865 --plugin-paths /Users/school/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-1461955774260.json --no-banner
 
+[TRACE]  [ioslib] Validating iOS Simulator UDID 28AD5081-EF91-46D1-8496-CDBC0DB38268
+[TRACE]  [ioslib] Found iOS Simulator UDID 28AD5081-EF91-46D1-8496-CDBC0DB38268
+[TRACE]  [ioslib] Selected iOS Simulator: iPad 2
+[TRACE]  [ioslib]   UDID    = 28AD5081-EF91-46D1-8496-CDBC0DB38268
+[TRACE]  [ioslib]   iOS     = 9.3
+[TRACE]  [ioslib] Autoselected Xcode: 7.3
 [DEBUG]  Detecting modules in /Users/school/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/school/Library/Application Support/Titanium/modules/android/facebook/4.0.5
 [DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/school/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
@@ -34,33 +40,34 @@ Command
 [DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
 [DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
 [DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/school/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.map version=2.4.1 platform=iphone deploy-type=development path=/Users/school/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
 [DEBUG]  No project level plugins to load
 [TRACE]  Snapshotting build directory
 [DEBUG]  Titanium SDK iOS directory: /Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
-[INFO]   Deploy type: test
-[INFO]   Building for target: device
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.3
-[INFO]   Building for iOS device: 709a1e804c94e816083c5097792cc5959945823e
+[INFO]   Building for iOS Simulator: iPad 2
+[DEBUG]  UDID: 28AD5081-EF91-46D1-8496-CDBC0DB38268
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 9.3
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
-[DEBUG]  Setting Xcode build OS to iphoneos
+[DEBUG]  Setting Xcode build OS to iphonesimulator
 [DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
 [DEBUG]  iOS WWDR certificate: installed
-[INFO]   iOS Development Certificate: lovetoskate247@yahoo.com (3H8HJN9K6W)
 [INFO]   Minimum iOS version: 7.1
-[INFO]   Using default keychain
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-29e113b5f72ce4284d4b6be23a36b6435cad411a.json
+[TRACE]  offline build file /var/folders/vn/r3n3h3bx5gvcw7mn6_h7w96w0000gn/T/build-d72d204b755e850fb2b04bb3a1e560e1dc9c4d6e.json
 [TRACE]  online 1
-[TRACE]  sending request {"json":{"username":"hunterdylan882@gmail.com","session":"2cd69f0a66d21b3104ad8aeeb9a6b5fccd2d7952 364Y8WMmrgsoXrm3oyal0iS62qkwm7eRtGH8vx4IcEG5vsCRb9MpBuEp8v6oixZ23akjbgSa3OLCkcfjwzRczYIFE4PL1lApv93SwpDUybAdKE6o7ma3jl8/hzlEGmyXo05NbWMi/WmkiJ1ykWvs/+VFH47ggcdRucUuRMIA6bVY6/5ilU9OAEt7YfDizTKzGpM0C5TdMxV6PK+YUeaWepW/c/Y0E9D7ILUN9Xl872dabmsUk0X4X6aduDw5Ha6FojZoyjMxTXDXESb9c8Y35ZzQogrX0KMGwtM3QmgmWgsSG4u0k1bWYtxQoE+TgLOjwGKwowc30IqxtmN76fEuYzFvZjkqvd68T78MEuOZ2yEAoFeOUGlZZW7X7H3LYOVtdpjFZepFsLoMez2nG5onx8/TPdVXBOuRjTwLozVilA0V6lJy49l+Uno0aWsZddGu2gfJjTwtuEgsxDzyB4Nl5qjmJHJCSm5Rwf0t456+PJttwN8yrL6obZwDNoSDRPb1lmvyNwGFhYEOOHoeaSzJNcFS26eZTCgtBPv5pUxxEjMIJ4NLYD6u1ZHnqmHQpVccHzHUtgqtsPr4v7sMuROJhQkjJHKzZpAIfKwZUD4/4YLShlul4umt0fdluHUscqeXlKk+m6VVv9QrTh8GqkP7ec+qyWI7shyMmP6NS8ByC8VXvH5vQZSw8NiTxwNoXIaDe6U3HP4aIc+hOHEE5CoDyB4hxQqNyT3MZ6WUeOpE2yW6rF383HxOlB9Mk4RzcEpwJ6CAtZpfoDbBNvPu9m4s2hy9S9YZDcbzOOxRQxFfSBk=","ipaddress":"10.0.0.210","fingerprint":"9cac56b8b969e4c735c38c0f0a4fadb71d7be8a9","fingerprint_description":"Mac OSX Serial Number: C02PV3GFG8WL","guid":"fb37ea74-a9f0-4659-9555-b9b59bc4dc17","appid":"com.fullsail.mapAppWeek4","name":"mapAppWeek4","org_id":100083291,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.fullsail.mapAppWeek4</id>\n  <name>mapAppWeek4</name>\n  <version>1.0</version>\n  <publisher>school</publisher>\n  <url/>\n  <description/>\n  <copyright>2016 by school</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>fb37ea74-a9f0-4659-9555-b9b59bc4dc17</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <array>\n          <string>allow location cords</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <android \n      xmlns:android=\"http://schemas.android.com/apk/res/android\">\n      <manifest>\n        <!-- Allows the API to download data from Google Map servers -->\n        <uses-permission android:name=\"android.permission.INTERNET\"/>\n        <!-- Allows the API to cache data -->\n        <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>\n        <!-- Use GPS for device location -->\n        <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>\n        <!-- Use Wi-Fi or mobile connection for device location -->\n        <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>\n        <!-- Allows the API to access Google web-based services -->\n        <uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\"/>\n        <!-- Specify OpenGL ES 2.0 as a requirement -->\n        <uses-feature android:glEsVersion=\"0x00020000\" android:required=\"true\"/>\n        <uses-permission android:name=\"com.test.v2.permission.MAPS_RECEIVE\"/>\n        <permission android:name=\"com.test.v2.permission.MAPS_RECEIVE\" android:protectionLevel=\"signature\"/>\n        <application>\n          <!-- Replace \"AIzaSyAK3t8b0F9nooq0_OUpgOrwIcaFc_5UFUc\" with the Google API key you obtained -->\n          <meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyAK3t8b0F9nooq0_OUpgOrwIcaFc_5UFUc\"/>\n        </application>\n      </manifest>\n    </android>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <modules>\n      <module platform=\"ipad\">ti.map</module>\n    </modules>\n    <modules>\n      <module platform=\"android\">ti.map</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.1.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">572290627196087846ecf7f0</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100083291</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35</property>\n  </ti:app>","modules":[]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
-[TRACE]  result from /build-verify=> {"key":"mEDs/wIDHmwb8wFukmVmeg==","pepper":"zj98dIiHq4qWWPasCOZkHw==","hmacKey":"et2fs9DD4uZUxszWkQCxbg==","o":100083291,"u":"e4a08fa1-f6c3-4abd-a8f3-a45237d7ec35","p":"free","i":"5723a990e8db16090556a54d","success":true}, err=null
-[INFO]   JavaScript files need to be encrypted
+[TRACE]  optimizing build, last build was 706.462 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
-[TRACE]  No native module libraries to add
+[TRACE]  Adding 1 native module library
 [TRACE]  No extensions to add
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4.xcodeproj/project.pbxproj
 [INFO]   Creating Entitlements.plist
@@ -83,8 +90,8 @@ Command
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4_Prefix.pch
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/mapAppWeek4.xcodeproj/xcshareddata/xcschemes/mapAppWeek4.xcscheme
 [INFO]   Creating debugger and profiler plists
-[DEBUG]  Skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/debugger.plist
-[DEBUG]  Skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/profiler.plist
+[DEBUG]  Skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/debugger.plist
+[DEBUG]  Skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/profiler.plist
 [INFO]   Analyzing Resources directory
 [INFO]   Analyzing platform files
 [INFO]   Analyzing module files
@@ -109,9 +116,9 @@ Command
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
 [INFO]   App thinning disabled, skipping asset image sets
 [DEBUG]  Copying resources
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_ui.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_views.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/images/bg.jpg
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/images/bg.jpg
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
@@ -123,76 +130,41 @@ Command
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/api_js
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/app_js
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/db_js
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/geo_js
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/modulemap_js
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/signup_js
+[DEBUG]  Overwriting /Users/school/Desktop/AVF/mapAppWeek4/Resources/api.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/api.js
+[DEBUG]  Overwriting /Users/school/Desktop/AVF/mapAppWeek4/Resources/app.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/app.js
+[DEBUG]  Overwriting /Users/school/Desktop/AVF/mapAppWeek4/Resources/db.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/db.js
+[DEBUG]  Overwriting /Users/school/Desktop/AVF/mapAppWeek4/Resources/geo.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/geo.js
+[DEBUG]  Overwriting /Users/school/Desktop/AVF/mapAppWeek4/Resources/modulemap.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/modulemap.js
+[DEBUG]  Overwriting /Users/school/Desktop/AVF/mapAppWeek4/Resources/signup.js => /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/signup.js
 [INFO]   Writing app properties
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/assets/_app_props__json
-[INFO]   Encrypting JavaScript files
-[INFO]   No JavaScript file changes, skipping titanium_prep
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
 [DEBUG]  Processing Titanium namespace resources
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/badge.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/closeButton.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Classes/defines.h
 [INFO]   Removing files
-[DEBUG]  Removing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/Logs/Build/39A7CC6A-F488-425F-8325-8654DF0B5CFF.xcactivitylog
-[DEBUG]  Removing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.ipa
 [DEBUG]  Removing empty directories
-[INFO]   Optimizing .plist and .png files
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/Info.plist
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_ui.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/KS_nav_views.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/badge.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/closeButton.png
-[TRACE]  No change, skipping /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/modules/ui/images/photoDefault.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon29x29@2x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon29x29@2x~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon29x29@3x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon29x29~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon40x40@2x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon40x40@2x~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon40x40@3x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon40x40~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon60x60@2x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon60x60@3x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon76x76@2x~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/AppIcon76x76~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-700-568h@2x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-700-Landscape@2x~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-700-Landscape~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-700-Portrait@2x~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-700-Portrait~ipad.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-700@2x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-800-667h@2x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-800-Landscape-736h@3x.png
-[DEBUG]  Optimizing /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app/LaunchImage-800-Portrait-736h@3x.png
-[INFO]   Invoking xcodebuild
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target mapAppWeek4 -configuration Debug -scheme mapAppWeek4 -derivedDataPath /Users/school/Desktop/AVF/mapAppWeek4/build/iphone OBJROOT=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products
-[TRACE]  User defaults from command line:
-[TRACE]      IDEDerivedDataPathOverride = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone
-[TRACE]  Build settings from command line:
-[TRACE]      OBJROOT = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates
-[TRACE]      SHARED_PRECOMPS_DIR = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Intermediates/PrecompiledHeaders
-[TRACE]      SYMROOT = /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products
-[TRACE]  
-[TRACE]  === BUILD TARGET mapAppWeek4 OF PROJECT mapAppWeek4 WITH CONFIGURATION Debug ===
-[TRACE]  Check dependencies
-[TRACE]  The provisioning profile "iOS Team Provisioning Profile: com.fullsail.mapAppWeek4" is expiring soon
-[TRACE]  
-[TRACE]  Validate build/Products/Debug-iphoneos/mapAppWeek4.app
-[TRACE]      cd /Users/school/Desktop/AVF/mapAppWeek4/build/iphone
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-[TRACE]      export PRODUCT_TYPE=com.apple.product-type.application
-[TRACE]      builtin-validationUtility /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphoneos/mapAppWeek4.app
-[TRACE]  
-[TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 4s 654ms
-[INFO]   Installing app on device: Dylan's iPad
-[INFO]   App successfully installed on device: Dylan's iPad
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 250ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPad 2
+[TRACE]  [ioslib]   UDID    = 28AD5081-EF91-46D1-8496-CDBC0DB38268
+[TRACE]  [ioslib]   iOS     = 9.3
+[TRACE]  [ioslib] Autoselected Xcode: 7.3
+[TRACE]  [ioslib] Removing old log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/F1541D4E-D837-43AD-990C-9507CECBEB97/Documents/fb37ea74-a9f0-4659-9555-b9b59bc4dc17.log
+[TRACE]  [ioslib] iPad 2 Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPad 2 Simulator system log: /Users/school/Library/Logs/CoreSimulator/28AD5081-EF91-46D1-8496-CDBC0DB38268/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/school/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPad 2 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 28AD5081-EF91-46D1-8496-CDBC0DB38268 /Users/school/Desktop/AVF/mapAppWeek4/build/iphone/build/Products/Debug-iphonesimulator/mapAppWeek4.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 28AD5081-EF91-46D1-8496-CDBC0DB38268 com.fullsail.mapAppWeek4
+[TRACE]  [ioslib] App launched
+[TRACE]  [mapAppWeek4] assertion failed: 15E65 13E230: libxpc.dylib + 71506 [6F98A9DA-B46E-3A2B-88D4-92F1EC77477F]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/school/Library/Developer/CoreSimulator/Devices/28AD5081-EF91-46D1-8496-CDBC0DB38268/data/Containers/Data/Application/CA6E95B3-20A3-4143-81CF-BD34349C7270/Documents/fb37ea74-a9f0-4659-9555-b9b59bc4dc17.log
